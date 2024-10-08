@@ -55,5 +55,5 @@ GitHub Container Registry. Images are built on **[docker-library](https://github
 | [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.11-slim-trixie` | `docker pull ghcr.io/loong64/python:3.11-slim-trixie`    |
 | [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.12-trixie`      | `docker pull ghcr.io/loong64/python:3.12-trixie`         |
 | [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.12-slim-trixie` | `docker pull ghcr.io/loong64/python:3.12-slim-trixie`    |
-| [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.13-rc`          | `docker pull ghcr.io/loong64/python:3.13-rc`             |
-| [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.13-rc-trixie`   | `docker pull ghcr.io/loong64/python:3.13-rc-trixie`      |
+| [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.13-trixie`      | `docker pull ghcr.io/loong64/python:3.13-trixie`         |
+| [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.13-slim-trixie` | `docker pull ghcr.io/loong64/python:3.13-slim-trixie`    |
