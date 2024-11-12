@@ -15,11 +15,11 @@ docker run --rm --privileged ghcr.io/loong64/qemu-user-static --reset -p yes
 docker run --rm -it ghcr.io/loong64/debian:trixie-slim bash
 ```
 
-Or use **[Debian LiveCD](https://github.com/loong64/daily-builds/releases)** to boot.
+Or use **[Debian CD](https://cdimage.debian.org/cdimage/ports/snapshots/2024-11-11/)** to boot.
 
-| Name                                                              | Release                                                                                                                                                 | Description                             |
-| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------|
-| [DebianTesting](https://github.com/loong64/daily-builds/releases) | <a href="https://github.com/loong64/daily-builds/releases"><img alt="Debian" src="https://img.shields.io/github/release/loong64/daily-builds.svg"/></a> | Debian testing loong64 iso daily build  |
+| Name                                                                                                                                     | Description                                                         |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| [debian-12.0.0-loong64-NETINST-1.iso](https://cdimage.debian.org/cdimage/ports/snapshots/2024-11-11/debian-12.0.0-loong64-NETINST-1.iso) | contains installer images for the non-release "ports" architectures |
 
 ## Applications
 
