@@ -19,7 +19,7 @@ Or use **[Debian CD](https://cdimage.debian.org/cdimage/ports/snapshots/2024-11-
 
 | Name                                                                                                                                     | Description                                                         |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| [debian-12.0.0-loong64-NETINST-1.iso](https://cdimage.debian.org/cdimage/ports/snapshots/2024-11-11/debian-12.0.0-loong64-NETINST-1.iso) | contains installer images for the non-release "ports" architectures |
+| [debian-12.0.0-loong64-NETINST-1.iso](https://cdimage.debian.org/cdimage/ports/tests/loong64-test-20241115-2/debian-12.0.0-loong64-NETINST-1.iso) | contains installer images for the non-release "ports" architectures |
 
 ## Applications
 
