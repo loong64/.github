@@ -46,7 +46,9 @@ GitHub Container Registry. Images are built on **[docker-library](https://github
 | [golang](https://github.com/loong64/docker-library/pkgs/container/golang)                 | `1.22-trixie`      | `docker pull ghcr.io/loong64/golang:1.22-trixie`         |
 | [golang](https://github.com/loong64/docker-library/pkgs/container/golang)                 | `1.23-trixie`      | `docker pull ghcr.io/loong64/golang:1.23-trixie`         |
 | [node](https://github.com/loong64/docker-library/pkgs/container/node)                     | `18-trixie`        | `docker pull ghcr.io/loong64/node:18-trixie`             |
+| [node](https://github.com/loong64/docker-library/pkgs/container/node)                     | `18-trixie-slim`   | `docker pull ghcr.io/loong64/node:18-trixie-slim`        |
 | [node](https://github.com/loong64/docker-library/pkgs/container/node)                     | `20-trixie`        | `docker pull ghcr.io/loong64/node:20-trixie`             |
+| [node](https://github.com/loong64/docker-library/pkgs/container/node)                     | `20-trixie-slim`   | `docker pull ghcr.io/loong64/node:20-trixie-slim`        |
 | [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.9-trixie`       | `docker pull ghcr.io/loong64/python:3.9-trixie`          |
 | [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.9-slim-trixie`  | `docker pull ghcr.io/loong64/python:3.9-slim-trixie`     |
 | [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.10-trixie`      | `docker pull ghcr.io/loong64/python:3.10-trixie`         |
