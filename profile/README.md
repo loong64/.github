@@ -12,14 +12,23 @@ You can use **[Docker](https://docs.docker.com/get-started/get-docker/)** to qui
 
 ```bash
 docker run --rm --privileged ghcr.io/loong64/qemu-user-static --reset -p yes
+
+# Alpine
+docker run --rm -it ghcr.io/loong64/alpine:3.12 sh
+
+# Debian
 docker run --rm -it ghcr.io/loong64/debian:trixie-slim bash
 ```
 
-Or use **[Debian CD](https://cdimage.debian.org/cdimage/ports/snapshots/2024-11-11/)** to boot.
+Or use Linux OS to boot.
 
-| Name                                                                                                                                     | Description                                                         |
-| ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| [debian-12.0.0-loong64-NETINST-1.iso](https://cdimage.debian.org/cdimage/ports/tests/loong64-test-20241115-2/debian-12.0.0-loong64-NETINST-1.iso) | contains installer images for the non-release "ports" architectures |
+- **[Alpine Linux](https://www.alpinelinux.org/downloads/)** 
+- **[Debian GNU/Linux](https://cdimage.debian.org/cdimage/ports/snapshots/2024-11-11/)** 
+
+| Name                                                                                                                                              | Description                                                                                |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| [alpine-standard-3.21.0-loongarch64.iso](https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/loongarch64/alpine-standard-3.21.0-loongarch64.iso) | Alpine as it was intended. Just enough to get you started. Network connection is required. |
+| [debian-12.0.0-loong64-NETINST-1.iso](https://cdimage.debian.org/cdimage/ports/tests/loong64-test-20241115-2/debian-12.0.0-loong64-NETINST-1.iso) | contains installer images for the non-release "ports" architectures                        |
 
 ## Applications
 
@@ -37,13 +46,17 @@ GitHub Container Registry. Images are built on **[docker-library](https://github
 
 | Name                                                                                      | Tag                | Pull Command                                             |
 | ----------------------------------------------------------------------------------------- | ------------------ | -------------------------------------------------------- |
+| [alpine](https://github.com/loong64/docker-debian-build/pkgs/container/alpine)            | `3.21`             | `docker pull ghcr.io/loong64/alpine:3.21`                |
 | [debian](https://github.com/loong64/docker-debian-build/pkgs/container/debian)            | `trixie`           | `docker pull ghcr.io/loong64/debian:trixie`              |
 | [debian](https://github.com/loong64/docker-debian-build/pkgs/container/debian)            | `trixie-slim`      | `docker pull ghcr.io/loong64/debian:trixie-slim`         |
 | [buildpack-deps](https://github.com/loong64/docker-library/pkgs/container/buildpack-deps) | `trixie`           | `docker pull ghcr.io/loong64/buildpack-deps:trixie`      |
 | [buildpack-deps](https://github.com/loong64/docker-library/pkgs/container/buildpack-deps) | `trixie-scm`       | `docker pull ghcr.io/loong64/buildpack-deps:trixie-scm`  |
 | [buildpack-deps](https://github.com/loong64/docker-library/pkgs/container/buildpack-deps) | `trixie-curl`      | `docker pull ghcr.io/loong64/buildpack-deps:trixie-curl` |
+| [golang](https://github.com/loong64/docker-library/pkgs/container/golang)                 | `1.21-alpine`      | `docker pull ghcr.io/loong64/golang:1.21-alpine`         |
 | [golang](https://github.com/loong64/docker-library/pkgs/container/golang)                 | `1.21-trixie`      | `docker pull ghcr.io/loong64/golang:1.21-trixie`         |
+| [golang](https://github.com/loong64/docker-library/pkgs/container/golang)                 | `1.22-alpine`      | `docker pull ghcr.io/loong64/golang:1.22-alpine`         |
 | [golang](https://github.com/loong64/docker-library/pkgs/container/golang)                 | `1.22-trixie`      | `docker pull ghcr.io/loong64/golang:1.22-trixie`         |
+| [golang](https://github.com/loong64/docker-library/pkgs/container/golang)                 | `1.23-alpine`      | `docker pull ghcr.io/loong64/golang:1.23-alpine`         |
 | [golang](https://github.com/loong64/docker-library/pkgs/container/golang)                 | `1.23-trixie`      | `docker pull ghcr.io/loong64/golang:1.23-trixie`         |
 | [node](https://github.com/loong64/docker-library/pkgs/container/node)                     | `18-trixie`        | `docker pull ghcr.io/loong64/node:18-trixie`             |
 | [node](https://github.com/loong64/docker-library/pkgs/container/node)                     | `18-trixie-slim`   | `docker pull ghcr.io/loong64/node:18-trixie-slim`        |
