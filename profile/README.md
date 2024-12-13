@@ -11,6 +11,7 @@
 You can use **[Docker](https://docs.docker.com/get-started/get-docker/)** to quickly deploy.
 
 ```bash
+# Set up QEMU
 docker run --rm --privileged ghcr.io/loong64/qemu-user-static --reset -p yes
 
 # Alpine
@@ -25,10 +26,10 @@ Or use Linux OS to boot.
 - **[Alpine Linux](https://www.alpinelinux.org/downloads/)** 
 - **[Debian GNU/Linux](https://cdimage.debian.org/cdimage/ports/snapshots/2024-11-11/)** 
 
-| Name                                                                                                                                              | Description                                                                                |
-| ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| [alpine-standard-3.21.0-loongarch64.iso](https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/loongarch64/alpine-standard-3.21.0-loongarch64.iso) | Alpine as it was intended. Just enough to get you started. Network connection is required. |
-| [debian-12.0.0-loong64-NETINST-1.iso](https://cdimage.debian.org/cdimage/ports/tests/loong64-test-20241115-2/debian-12.0.0-loong64-NETINST-1.iso) | contains installer images for the non-release "ports" architectures                        |
+| Name                                                                                                                                              | Description                                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| [alpine-standard-3.21.0-loongarch64.iso](https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/loongarch64/alpine-standard-3.21.0-loongarch64.iso) | Alpine as it was intended. Just enough to get you started.           |
+| [debian-12.0.0-loong64-NETINST-1.iso](https://cdimage.debian.org/cdimage/ports/tests/loong64-test-20241115-2/debian-12.0.0-loong64-NETINST-1.iso) | contains installer images for the non-release "ports" architectures. |
 
 ## Applications
 
@@ -43,6 +44,10 @@ Binary applications.
 ## Docker Images
 
 GitHub Container Registry. Images are built on **[docker-library](https://github.com/loong64/docker-library)**
+
+<details>
+
+<summary>Details ...</summary>
 
 | Name                                                                                      | Tag                | Pull Command                                             |
 | ----------------------------------------------------------------------------------------- | ------------------ | -------------------------------------------------------- |
@@ -62,13 +67,22 @@ GitHub Container Registry. Images are built on **[docker-library](https://github
 | [node](https://github.com/loong64/docker-library/pkgs/container/node)                     | `18-trixie-slim`   | `docker pull ghcr.io/loong64/node:18-trixie-slim`        |
 | [node](https://github.com/loong64/docker-library/pkgs/container/node)                     | `20-trixie`        | `docker pull ghcr.io/loong64/node:20-trixie`             |
 | [node](https://github.com/loong64/docker-library/pkgs/container/node)                     | `20-trixie-slim`   | `docker pull ghcr.io/loong64/node:20-trixie-slim`        |
+| [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.9-alpine`       | `docker pull ghcr.io/loong64/python:3.9-alpine`          |
 | [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.9-trixie`       | `docker pull ghcr.io/loong64/python:3.9-trixie`          |
 | [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.9-slim-trixie`  | `docker pull ghcr.io/loong64/python:3.9-slim-trixie`     |
+| [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.10-alpine`      | `docker pull ghcr.io/loong64/python:3.10-alpine`         |
 | [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.10-trixie`      | `docker pull ghcr.io/loong64/python:3.10-trixie`         |
 | [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.10-slim-trixie` | `docker pull ghcr.io/loong64/python:3.10-slim-trixie`    |
+| [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.11-alpine`      | `docker pull ghcr.io/loong64/python:3.11-alpine`         |
 | [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.11-trixie`      | `docker pull ghcr.io/loong64/python:3.11-trixie`         |
 | [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.11-slim-trixie` | `docker pull ghcr.io/loong64/python:3.11-slim-trixie`    |
+| [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.12-alpine`      | `docker pull ghcr.io/loong64/python:3.12-alpine`         |
 | [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.12-trixie`      | `docker pull ghcr.io/loong64/python:3.12-trixie`         |
 | [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.12-slim-trixie` | `docker pull ghcr.io/loong64/python:3.12-slim-trixie`    |
+| [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.13-alpine`      | `docker pull ghcr.io/loong64/python:3.13-alpine`         |
 | [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.13-trixie`      | `docker pull ghcr.io/loong64/python:3.13-trixie`         |
 | [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.13-slim-trixie` | `docker pull ghcr.io/loong64/python:3.13-slim-trixie`    |
+
+</details>
+
+More Docker images will be added ...
