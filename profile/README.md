@@ -15,7 +15,7 @@ You can use **[Docker](https://docs.docker.com/get-started/get-docker/)** to qui
 docker run --rm --privileged ghcr.io/loong64/qemu-user-static --reset -p yes
 
 # Alpine
-docker run --rm -it ghcr.io/loong64/alpine:3.12 sh
+docker run --rm -it ghcr.io/loong64/alpine:3.21 sh
 
 # Debian
 docker run --rm -it ghcr.io/loong64/debian:trixie-slim bash
