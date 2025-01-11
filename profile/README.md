@@ -49,6 +49,8 @@ GitHub Container Registry. Images are built on **[docker-library](https://github
 
 <summary>Details ...</summary>
 
+----
+
 | Name                                                                                      | Tag                | Pull Command                                             |
 | ----------------------------------------------------------------------------------------- | ------------------ | -------------------------------------------------------- |
 | [alpine](https://github.com/loong64/docker-debian-build/pkgs/container/alpine)            | `3.21`             | `docker pull ghcr.io/loong64/alpine:3.21`                |
@@ -95,46 +97,66 @@ More Docker images will be added ...
 
 Python Package Index. **[PyPI](https://gitlab.com/loong64/pypi/-/packages/)**
 
-- https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple
-- https://gitlab.com/api/v4/projects/loong64%2Fpypi/packages/pypi/simple
-
 ```sh
-# pip install "SomeProject" --index-url https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple
-pip install poetry -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple
+# pip install "SomeProject" --extra-index-url https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple
+pip install poetry --extra-index-url https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple
 ```
 
 <details>
 
 <summary>Details ...</summary>
 
+----
+The Python Package Index
+
+- https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple
+- https://gitlab.com/api/v4/projects/loong64%2Fpypi/packages/pypi/simple
+
 | Name                 | Install Command                                                                                      |
 | -------------------- | ---------------------------------------------------------------------------------------------------- |
+| aiohttp              | pip install aiohttp -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple              |
 | argon2-cffi-bindings | pip install argon2-cffi-bindings -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple |
 | auditwheel           | pip install auditwheel -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple           |
+| bcrypt               | pip install bcrypt -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple               |
 | cffi                 | pip install cffi -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple                 |
 | cmake                | pip install cmake -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple                |
 | contourpy            | pip install contourpy -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple            |
 | cryptography         | pip install cryptography -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple         |
+| ephem                | pip install ephem -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple                |
+| greenlet             | pip install greenlet -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple             |
+| grpcio               | pip install grpcio -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple               |
+| jiter                | pip install jiter -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple                |
 | lxml                 | pip install lxml -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple                 |
 | MarkupSafe           | pip install MarkupSafe -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple           |
+| matplotlib           | pip install matplotlib -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple           |
+| maxminddb            | pip install maxminddb -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple            |
 | maturin              | pip install maturin -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple              |
 | msgpack              | pip install msgpack -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple              |
+| netifaces            | pip install netifaces -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple            |
 | nh3                  | pip install nh3 -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple                  |
 | ninja                | pip install ninja -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple                |
 | numpy                | pip install numpy -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple                |
+| onnx                 | pip install onnx -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple                 |
+| opencv-python        | pip install opencv-python -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple        |
 | optree               | pip install optree -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple               |
 | pandas               | pip install pandas -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple               |
 | patchelf             | pip install patchelf  -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple            |
 | pillow               | pip install pillow -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple               |
 | psutil               | pip install psutil -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple               |
-| pyyaml               | pip install pyyaml -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple               |
+| pycryptodome         | pip install pycryptodome -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple         |
+| pycryptodomex        | pip install pycryptodomex -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple        |
+| pydantic-core        | pip install pydantic-core -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple        |
+| PyNaCl               | pip install PyNaCl -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple               |
+| PyYAML               | pip install PyYAML -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple               |
 | pyzmq                | pip install pyzmq -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple                |
 | scipy-openblas32     | pip install scipy-openblas32 -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple     |
 | scipy-openblas64     | pip install scipy-openblas64 -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple     |
 | sentencepiece        | pip install sentencepiece -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple        |
 | swig                 | pip install swig -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple                 |
+| tornado              | pip install tornado -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple              |
 | xmlsec               | pip install xmlsec -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple               |
 | uv                   | pip install uv -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple                   |
+| zope.interface       | pip install zope.interface -i https://gitlab.com/api/v4/projects/65746188/packages/pypi/simple       |
 
 Built Packages on **[manylinux](https://github.com/loong64/manylinux)**
 
