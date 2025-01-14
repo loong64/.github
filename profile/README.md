@@ -15,10 +15,10 @@ You can use **[Docker](https://docs.docker.com/get-started/get-docker/)** to qui
 docker run --rm --privileged ghcr.io/loong64/qemu-user-static --reset -p yes
 
 # Alpine
-docker run --rm -it ghcr.io/loong64/alpine:3.21 sh
+docker run --rm --platform linux/loong64 -it ghcr.io/loong64/alpine:3.21 sh
 
 # Debian
-docker run --rm -it ghcr.io/loong64/debian:trixie-slim bash
+docker run --rm --platform linux/loong64 -it ghcr.io/loong64/debian:trixie-slim bash
 ```
 
 Or use Linux OS to boot.
@@ -92,6 +92,28 @@ GitHub Container Registry. Images are built on **[docker-library](https://github
 </details>
 
 More Docker images will be added ...
+
+## Docker Repository
+
+Install Docker Engine on Debian. **[Packages](https://github.com/loong64/repo)**
+
+```sh
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+
+sudo curl -fsSL "https://mirrors.loong64.com/debian/debian-loong64-archive-keyring.gpg" -o /usr/share/keyrings/debian-loong64-archive-keyring.gpg
+sudo chmod a+r /usr/share/keyrings/debian-loong64-archive-keyring.gpg
+
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=loong64 signed-by=/usr/share/keyrings/debian-loong64-archive-keyring.gpg] https://mirrors.loong64.com/debian trixie main" | \
+  sudo tee /etc/apt/sources.list.d/debian-loong64-repo.list > /dev/null
+
+# Install the Docker packages.
+sudo apt update
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
 
 ## PyPI Repository
 
