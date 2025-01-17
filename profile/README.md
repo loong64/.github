@@ -186,10 +186,11 @@ The Python Package Index
 
 Built Packages on **[manylinux](https://github.com/loong64/manylinux)**
 
-| Name                                                                                                         | Tag            | Pull Command                                             |
+| Name                                                                                                         | Tag            | Pull Command                                                          |
 | ------------------------------------------------------------------------------------------------------------ | -------------- | --------------------------------------------------------------------- |
 | [manylinux_2_38_loongarch64](https://github.com/loong64/manylinux/pkgs/container/manylinux_2_38_loongarch64) | `2024.12.31-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2024.12.31-1` |
 | [manylinux_2_38_loongarch64](https://github.com/loong64/manylinux/pkgs/container/manylinux_2_38_loongarch64) | `2025.01.07-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.01.07-1` |
+| [manylinux_2_38_loongarch64](https://github.com/loong64/manylinux/pkgs/container/manylinux_2_38_loongarch64) | `2025.01.16-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.01.16-1` |
 
 </details>
 
