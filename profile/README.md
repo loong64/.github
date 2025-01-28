@@ -159,6 +159,7 @@ The Python Package Index
 | ninja                | pip install ninja -i https://mirrors.loong64.com/pypi/simple                |
 | numpy                | pip install numpy -i https://mirrors.loong64.com/pypi/simple                |
 | mysqlclient          | pip install mysqlclient -i https://mirrors.loong64.com/pypi/simple          |
+| torch                | pip install torch -i https://mirrors.loong64.com/pypi/simple                |
 | onnx                 | pip install onnx -i https://mirrors.loong64.com/pypi/simple                 |
 | opencv-python        | pip install opencv-python -i https://mirrors.loong64.com/pypi/simple        |
 | optree               | pip install optree -i https://mirrors.loong64.com/pypi/simple               |
