@@ -144,8 +144,10 @@ The Python Package Index
 | cmake                | pip install cmake -i https://mirrors.loong64.com/pypi/simple                |
 | contourpy            | pip install contourpy -i https://mirrors.loong64.com/pypi/simple            |
 | cryptography         | pip install cryptography -i https://mirrors.loong64.com/pypi/simple         |
+| gevent               | pip install gevent -i https://mirrors.loong64.com/pypi/simple               |
 | ephem                | pip install ephem -i https://mirrors.loong64.com/pypi/simple                |
 | greenlet             | pip install greenlet -i https://mirrors.loong64.com/pypi/simple             |
+| h5py                 | pip install h5py -i https://mirrors.loong64.com/pypi/simple                 |
 | grpcio               | pip install grpcio -i https://mirrors.loong64.com/pypi/simple               |
 | jiter                | pip install jiter -i https://mirrors.loong64.com/pypi/simple                |
 | lxml                 | pip install lxml -i https://mirrors.loong64.com/pypi/simple                 |
@@ -193,7 +195,7 @@ Built Packages on **[manylinux](https://github.com/loong64/manylinux)**
 | [manylinux_2_38_loongarch64](https://github.com/loong64/manylinux/pkgs/container/manylinux_2_38_loongarch64) | `2025.01.07-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.01.07-1` |
 | [manylinux_2_38_loongarch64](https://github.com/loong64/manylinux/pkgs/container/manylinux_2_38_loongarch64) | `2025.01.16-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.01.16-1` |
 | [manylinux_2_38_loongarch64](https://github.com/loong64/manylinux/pkgs/container/manylinux_2_38_loongarch64) | `2025.01.19-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.01.19-1` |
-| [manylinux_2_38_loongarch64](https://github.com/loong64/manylinux/pkgs/container/manylinux_2_38_loongarch64) | `2025.01.19-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.01.20-1` |
+| [manylinux_2_38_loongarch64](https://github.com/loong64/manylinux/pkgs/container/manylinux_2_38_loongarch64) | `2025.01.20-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.01.20-1` |
 
 </details>
 
