@@ -61,12 +61,10 @@ GitHub Container Registry. Images are built on **[docker-library](https://github
 | [buildpack-deps](https://github.com/loong64/docker-library/pkgs/container/buildpack-deps) | `trixie`           | `docker pull ghcr.io/loong64/buildpack-deps:trixie`      |
 | [buildpack-deps](https://github.com/loong64/docker-library/pkgs/container/buildpack-deps) | `trixie-scm`       | `docker pull ghcr.io/loong64/buildpack-deps:trixie-scm`  |
 | [buildpack-deps](https://github.com/loong64/docker-library/pkgs/container/buildpack-deps) | `trixie-curl`      | `docker pull ghcr.io/loong64/buildpack-deps:trixie-curl` |
-| [golang](https://github.com/loong64/docker-library/pkgs/container/golang)                 | `1.21-alpine`      | `docker pull ghcr.io/loong64/golang:1.21-alpine`         |
-| [golang](https://github.com/loong64/docker-library/pkgs/container/golang)                 | `1.21-trixie`      | `docker pull ghcr.io/loong64/golang:1.21-trixie`         |
-| [golang](https://github.com/loong64/docker-library/pkgs/container/golang)                 | `1.22-alpine`      | `docker pull ghcr.io/loong64/golang:1.22-alpine`         |
-| [golang](https://github.com/loong64/docker-library/pkgs/container/golang)                 | `1.22-trixie`      | `docker pull ghcr.io/loong64/golang:1.22-trixie`         |
 | [golang](https://github.com/loong64/docker-library/pkgs/container/golang)                 | `1.23-alpine`      | `docker pull ghcr.io/loong64/golang:1.23-alpine`         |
 | [golang](https://github.com/loong64/docker-library/pkgs/container/golang)                 | `1.23-trixie`      | `docker pull ghcr.io/loong64/golang:1.23-trixie`         |
+| [golang](https://github.com/loong64/docker-library/pkgs/container/golang)                 | `1.24-alpine`      | `docker pull ghcr.io/loong64/golang:1.24-alpine`         |
+| [golang](https://github.com/loong64/docker-library/pkgs/container/golang)                 | `1.24-trixie`      | `docker pull ghcr.io/loong64/golang:1.24-trixie`         |
 | [node](https://github.com/loong64/docker-library/pkgs/container/node)                     | `18-alpine`        | `docker pull ghcr.io/loong64/node:18-alpine`             |
 | [node](https://github.com/loong64/docker-library/pkgs/container/node)                     | `18-trixie`        | `docker pull ghcr.io/loong64/node:18-trixie`             |
 | [node](https://github.com/loong64/docker-library/pkgs/container/node)                     | `18-trixie-slim`   | `docker pull ghcr.io/loong64/node:18-trixie-slim`        |
@@ -74,7 +72,11 @@ GitHub Container Registry. Images are built on **[docker-library](https://github
 | [node](https://github.com/loong64/docker-library/pkgs/container/node)                     | `20-trixie`        | `docker pull ghcr.io/loong64/node:20-trixie`             |
 | [node](https://github.com/loong64/docker-library/pkgs/container/node)                     | `20-trixie-slim`   | `docker pull ghcr.io/loong64/node:20-trixie-slim`        |
 | [node](https://github.com/loong64/docker-library/pkgs/container/node)                     | `22-alpine`        | `docker pull ghcr.io/loong64/node:22-alpine`             |
+| [node](https://github.com/loong64/docker-library/pkgs/container/node)                     | `22-trixie`        | `docker pull ghcr.io/loong64/node:22-trixie`             |
+| [node](https://github.com/loong64/docker-library/pkgs/container/node)                     | `22-trixie-slim`   | `docker pull ghcr.io/loong64/node:22-trixie-slim`        |
 | [node](https://github.com/loong64/docker-library/pkgs/container/node)                     | `23-alpine`        | `docker pull ghcr.io/loong64/node:23-alpine`             |
+| [node](https://github.com/loong64/docker-library/pkgs/container/node)                     | `23-trixie`        | `docker pull ghcr.io/loong64/node:23-trixie`             |
+| [node](https://github.com/loong64/docker-library/pkgs/container/node)                     | `23-trixie-slim`   | `docker pull ghcr.io/loong64/node:23-trixie-slim`        |
 | [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.9-alpine`       | `docker pull ghcr.io/loong64/python:3.9-alpine`          |
 | [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.9-trixie`       | `docker pull ghcr.io/loong64/python:3.9-trixie`          |
 | [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.9-slim-trixie`  | `docker pull ghcr.io/loong64/python:3.9-slim-trixie`     |
