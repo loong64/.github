@@ -35,13 +35,17 @@ Or use Linux OS to boot.
 
 Binary applications.
 
-| Name                                                                   | Release                                                                                                                                                            | Description                                    |
-| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------- |
-| [Ollama](https://github.com/loong64/ollama)                            | <a href="https://github.com/loong64/ollama"><img alt="Ollama" src="https://img.shields.io/github/release/loong64/ollama.svg"/></a>                                 | Get up and running with large language models. |
-| [Node.js](https://github.com/loong64/node/releases)                    | <a href="https://github.com/loong64/node/releases"><img alt="Node.js" src="https://img.shields.io/github/release/loong64/node.svg"/></a>                           | Node.js JavaScript runtime ✨🐢🚀✨          |
-| [GitHub CLI](https://github.com/loong64/cli)                           | <a href="https://github.com/loong64/cli"><img alt="CLI" src="https://img.shields.io/github/release/loong64/cli.svg"/></a>                                          | GitHub’s official command line tool            |
-| [Docker](https://github.com/loong64/docker-ce-packaging/releases)      | <a href="https://github.com/loong64/docker-ce-packaging"><img alt="Docker" src="https://img.shields.io/github/release/loong64/docker-ce-packaging.svg"/></a>       | Packaging scripts for Docker CE                |
-| [Containerd](https://github.com/loong64/containerd-packaging/releases) | <a href="https://github.com/loong64/containerd-packaging"><img alt="Containerd" src="https://img.shields.io/github/release/loong64/containerd-packaging.svg"/></a> | Linux distro packaging for containerd          |
+| Name                                                                   | Release                                                                                                                                                            | Description                                                                 |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------- |
+| [gosu](https://github.com/tianon/gosu)                                 | <a href="https://github.com/loong64/gosu"><img alt="gosu" src="https://img.shields.io/github/release/loong64/gosu.svg"/></a>                                       | Simple Go-based setuid+setgid+setgroups+exec.                               |
+| [Box64](https://github.com/loong64/box64)                              | <a href="https://github.com/loong64/box64"><img alt="Box64" src="https://img.shields.io/github/release/loong64/box64.svg"/></a>                                    | Linux Userspace x86_64 Emulator with a twist.                               |
+| [Cosign](https://github.com/loong64/cosign)                            | <a href="https://github.com/loong64/cosign"><img alt="Cosign" src="https://img.shields.io/github/release/loong64/cosign.svg"/></a>                                 | Code signing and transparency for containers and binaries.                  |
+| [Ollama](https://github.com/loong64/ollama)                            | <a href="https://github.com/loong64/ollama"><img alt="Ollama" src="https://img.shields.io/github/release/loong64/ollama.svg"/></a>                                 | Get up and running with large language models.                              |
+| [PyTorch](https://github.com/loong64/pytorch)                          | <a href="https://github.com/loong64/pytorch"><img alt="PyTorch" src="https://img.shields.io/github/release/loong64/pytorch.svg"/></a>                              | Tensors and Dynamic neural networks in Python with strong GPU acceleration. |
+| [Node.js](https://github.com/loong64/node/releases)                    | <a href="https://github.com/loong64/node/releases"><img alt="Node.js" src="https://img.shields.io/github/release/loong64/node.svg"/></a>                           | Node.js JavaScript runtime ✨🐢🚀✨                                       |
+| [GitHub CLI](https://github.com/loong64/cli)                           | <a href="https://github.com/loong64/cli"><img alt="CLI" src="https://img.shields.io/github/release/loong64/cli.svg"/></a>                                          | GitHub’s official command line tool                                         |
+| [Docker](https://github.com/loong64/docker-ce-packaging/releases)      | <a href="https://github.com/loong64/docker-ce-packaging"><img alt="Docker" src="https://img.shields.io/github/release/loong64/docker-ce-packaging.svg"/></a>       | Packaging scripts for Docker CE                                             |
+| [Containerd](https://github.com/loong64/containerd-packaging/releases) | <a href="https://github.com/loong64/containerd-packaging"><img alt="Containerd" src="https://img.shields.io/github/release/loong64/containerd-packaging.svg"/></a> | Linux distro packaging for containerd                                       |
 
 ## Docker Images
 
@@ -201,7 +205,9 @@ Built Packages on **[manylinux](https://github.com/loong64/manylinux)**
 | [manylinux_2_38_loongarch64](https://github.com/loong64/manylinux/pkgs/container/manylinux_2_38_loongarch64) | `2025.01.19-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.01.19-1` |
 | [manylinux_2_38_loongarch64](https://github.com/loong64/manylinux/pkgs/container/manylinux_2_38_loongarch64) | `2025.01.20-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.01.20-1` |
 | [manylinux_2_38_loongarch64](https://github.com/loong64/manylinux/pkgs/container/manylinux_2_38_loongarch64) | `2025.03.05-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.03.05-1` |
+| [manylinux_2_38_loongarch64](https://github.com/loong64/manylinux/pkgs/container/manylinux_2_38_loongarch64) | `2025.03.19-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.03.19-1` |
 | [musllinux_1_2_loongarch64](https://github.com/loong64/manylinux/pkgs/container/musllinux_1_2_loongarch64)   | `2025.03.05-1` | `docker pull ghcr.io/loong64/musllinux_1_2_loongarch64:2025.03.05-1`  |
+| [musllinux_1_2_loongarch64](https://github.com/loong64/manylinux/pkgs/container/musllinux_1_2_loongarch64)   | `2025.03.19-1` | `docker pull ghcr.io/loong64/musllinux_1_2_loongarch64:2025.03.19-1`  |
 
 </details>
 
