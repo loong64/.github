@@ -12,7 +12,7 @@ You can use **[Docker](https://docs.docker.com/get-started/get-docker/)** to qui
 
 ```bash
 # Set up QEMU
-docker run --rm --privileged ghcr.io/loong64/qemu-user-static --reset -p yes
+docker run --privileged --rm tonistiigi/binfmt --install all
 
 # Alpine
 docker run --rm --platform linux/loong64 -it ghcr.io/loong64/alpine:3.21 sh
@@ -96,6 +96,10 @@ GitHub Container Registry. Images are built on **[docker-library](https://github
 | [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.13-alpine`      | `docker pull ghcr.io/loong64/python:3.13-alpine`         |
 | [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.13-trixie`      | `docker pull ghcr.io/loong64/python:3.13-trixie`         |
 | [python](https://github.com/loong64/docker-library/pkgs/container/python)                 | `3.13-slim-trixie` | `docker pull ghcr.io/loong64/python:3.13-slim-trixie`    |
+| [redis](https://github.com/loong64/docker-library/pkgs/container/redis)                   | `7.2-alpine`       | `docker pull ghcr.io/loong64/redis:7.2-alpine`           |
+| [redis](https://github.com/loong64/docker-library/pkgs/container/redis)                   | `7.2-trixie`       | `docker pull ghcr.io/loong64/redis:7.2-trixie`           |
+| [redis](https://github.com/loong64/docker-library/pkgs/container/redis)                   | `7.4-alpine`       | `docker pull ghcr.io/loong64/redis:7.4-alpine`           |
+| [redis](https://github.com/loong64/docker-library/pkgs/container/redis)                   | `7.4-trixie`       | `docker pull ghcr.io/loong64/redis:7.4-trixie`           |
 
 </details>
 
