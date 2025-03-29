@@ -51,6 +51,12 @@ Binary applications.
 
 GitHub Container Registry. Images are built on **[docker-library](https://github.com/loong64/docker-library)**
 
+```sh
+docker run --rm -it ghcr.io/loong64/golang:1.24-trixie go version
+docker run --rm -it ghcr.io/loong64/node:23-trixie-slim node --version
+docker run --rm -it ghcr.io/loong64/python:3.13-slim-trixie python --version
+```
+
 <details>
 
 <summary>Details ...</summary>
@@ -119,12 +125,12 @@ GitHub Container Registry. Images are built on **[docker-library](https://github
 
 More Docker images will be added ...
 
-## Docker Repository
+## Debian Packages
 
-Install Docker Engine on Debian. **[Packages](https://github.com/loong64/repo)**
+Install Debian Packages **[repo](https://github.com/loong64/repo)**
 
 ```sh
-# Add Docker's official GPG key:
+# Add GPG key:
 sudo apt-get update
 sudo apt-get install ca-certificates curl
 
@@ -141,9 +147,34 @@ sudo apt update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
+<details>
+
+<summary>Details ...</summary>
+
+----
+Package List
+
+- https://mirrors.loong64.com/debian
+- https://loong64.github.io/repo/debian
+
+| Package Name              | Install Command                              | Description                                    |
+| ------------------------- | -------------------------------------------- | ---------------------------------------------- |
+| gh                        | `sudo apt install gh`                        | GitHub's official command line tool            |
+| box64                     | `sudo apt install box64`                     | Linux Userspace x86_64 Emulator with a twist.  |
+| containerd.io             | `sudo apt install containerd.io`             | An open and reliable container runtime         |
+| docker-buildx-plugin      | `sudo apt install docker-buildx-plugin`      | Docker Buildx CLI plugin                       |
+| docker-ce                 | `sudo apt install docker-ce`                 | Docker Engine                                  |
+| docker-ce-cli             | `sudo apt install docker-ce-cli`             | Docker CLI                                     |
+| docker-ce-rootless-extras | `sudo apt install docker-ce-rootless-extras` | Rootless support for Docker                    |
+| docker-compose-plugin     | `sudo apt install docker-compose-plugin`     | Docker Compose (V2) plugin for the Docker CLI  |
+
+</details>
+
+More packages will be added ...
+
 ## PyPI Repository
 
-Python Package Index. **[PyPI](https://gitlab.com/loong64/pypi/-/packages/)**
+Python Package Index. **[pypi](https://gitlab.com/loong64/pypi/-/packages/)**
 
 ```sh
 # pip install "SomeProject" --extra-index-url https://mirrors.loong64.com/pypi/simple
