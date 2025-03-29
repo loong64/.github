@@ -100,16 +100,20 @@ GitHub Container Registry. Images are built on **[docker-library](https://github
 | [redis](https://github.com/loong64/docker-library/pkgs/container/redis)                   | `7.2-trixie`       | `docker pull ghcr.io/loong64/redis:7.2-trixie`           |
 | [redis](https://github.com/loong64/docker-library/pkgs/container/redis)                   | `7.4-alpine`       | `docker pull ghcr.io/loong64/redis:7.4-alpine`           |
 | [redis](https://github.com/loong64/docker-library/pkgs/container/redis)                   | `7.4-trixie`       | `docker pull ghcr.io/loong64/redis:7.4-trixie`           |
-| [postgres](https://github.com/loong64/docker-library/pkgs/container/postgres)             | `13-alpine`       | `docker pull ghcr.io/loong64/postgres:13-alpine`          |
-| [postgres](https://github.com/loong64/docker-library/pkgs/container/postgres)             | `13-trixie`       | `docker pull ghcr.io/loong64/postgres:13-trixie`          |
-| [postgres](https://github.com/loong64/docker-library/pkgs/container/postgres)             | `14-alpine`       | `docker pull ghcr.io/loong64/postgres:14-alpine`          |
-| [postgres](https://github.com/loong64/docker-library/pkgs/container/postgres)             | `14-trixie`       | `docker pull ghcr.io/loong64/postgres:14-trixie`          |
-| [postgres](https://github.com/loong64/docker-library/pkgs/container/postgres)             | `15-alpine`       | `docker pull ghcr.io/loong64/postgres:15-alpine`          |
-| [postgres](https://github.com/loong64/docker-library/pkgs/container/postgres)             | `15-trixie`       | `docker pull ghcr.io/loong64/postgres:15-trixie`          |
-| [postgres](https://github.com/loong64/docker-library/pkgs/container/postgres)             | `16-alpine`       | `docker pull ghcr.io/loong64/postgres:16-alpine`          |
-| [postgres](https://github.com/loong64/docker-library/pkgs/container/postgres)             | `16-trixie`       | `docker pull ghcr.io/loong64/postgres:16-trixie`          |
-| [postgres](https://github.com/loong64/docker-library/pkgs/container/postgres)             | `17-alpine`       | `docker pull ghcr.io/loong64/postgres:17-alpine`          |
-| [postgres](https://github.com/loong64/docker-library/pkgs/container/postgres)             | `17-trixie`       | `docker pull ghcr.io/loong64/postgres:17-trixie`          |
+| [postgres](https://github.com/loong64/docker-library/pkgs/container/postgres)             | `13-alpine`        | `docker pull ghcr.io/loong64/postgres:13-alpine`         |
+| [postgres](https://github.com/loong64/docker-library/pkgs/container/postgres)             | `13-trixie`        | `docker pull ghcr.io/loong64/postgres:13-trixie`         |
+| [postgres](https://github.com/loong64/docker-library/pkgs/container/postgres)             | `14-alpine`        | `docker pull ghcr.io/loong64/postgres:14-alpine`         |
+| [postgres](https://github.com/loong64/docker-library/pkgs/container/postgres)             | `14-trixie`        | `docker pull ghcr.io/loong64/postgres:14-trixie`         |
+| [postgres](https://github.com/loong64/docker-library/pkgs/container/postgres)             | `15-alpine`        | `docker pull ghcr.io/loong64/postgres:15-alpine`         |
+| [postgres](https://github.com/loong64/docker-library/pkgs/container/postgres)             | `15-trixie`        | `docker pull ghcr.io/loong64/postgres:15-trixie`         |
+| [postgres](https://github.com/loong64/docker-library/pkgs/container/postgres)             | `16-alpine`        | `docker pull ghcr.io/loong64/postgres:16-alpine`         |
+| [postgres](https://github.com/loong64/docker-library/pkgs/container/postgres)             | `16-trixie`        | `docker pull ghcr.io/loong64/postgres:16-trixie`         |
+| [postgres](https://github.com/loong64/docker-library/pkgs/container/postgres)             | `17-alpine`        | `docker pull ghcr.io/loong64/postgres:17-alpine`         |
+| [postgres](https://github.com/loong64/docker-library/pkgs/container/postgres)             | `17-trixie`        | `docker pull ghcr.io/loong64/postgres:17-trixie`         |
+| [mariadb](https://github.com/loong64/docker-library/pkgs/container/mariadb)               | `11.4`             | `docker pull ghcr.io/loong64/mariadb:11.4`               |
+| [mariadb](https://github.com/loong64/docker-library/pkgs/container/mariadb)               | `11.4-trixie`      | `docker pull ghcr.io/loong64/mariadb:11.4-trixie`        |
+| [mariadb](https://github.com/loong64/docker-library/pkgs/container/mariadb)               | `11.8-rc`          | `docker pull ghcr.io/loong64/mariadb:11.8-rc`            |
+| [mariadb](https://github.com/loong64/docker-library/pkgs/container/mariadb)               | `11.8-trixie-rc`   | `docker pull ghcr.io/loong64/mariadb:11.8-trixie-rc`     |
 
 </details>
 
