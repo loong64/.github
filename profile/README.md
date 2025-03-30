@@ -120,6 +120,10 @@ docker run --rm -it ghcr.io/loong64/python:3.13-slim-trixie python --version
 | [mariadb](https://github.com/loong64/docker-library/pkgs/container/mariadb)               | `11.4-trixie`      | `docker pull ghcr.io/loong64/mariadb:11.4-trixie`        |
 | [mariadb](https://github.com/loong64/docker-library/pkgs/container/mariadb)               | `11.8-rc`          | `docker pull ghcr.io/loong64/mariadb:11.8-rc`            |
 | [mariadb](https://github.com/loong64/docker-library/pkgs/container/mariadb)               | `11.8-trixie-rc`   | `docker pull ghcr.io/loong64/mariadb:11.8-trixie-rc`     |
+| [nginx](https://github.com/loong64/docker-library/pkgs/container/nginx)                   | `1.26-alpine`      | `docker pull ghcr.io/loong64/nginx:1.26-alpine`          |
+| [nginx](https://github.com/loong64/docker-library/pkgs/container/nginx)                   | `1.26-trixie`      | `docker pull ghcr.io/loong64/nginx:1.26-trixie`          |
+| [nginx](https://github.com/loong64/docker-library/pkgs/container/nginx)                   | `1.27-alpine`      | `docker pull ghcr.io/loong64/nginx:1.27-alpine`          |
+| [nginx](https://github.com/loong64/docker-library/pkgs/container/nginx)                   | `1.27-trixie`      | `docker pull ghcr.io/loong64/nginx:1.27-trixie`          |
 
 </details>
 
