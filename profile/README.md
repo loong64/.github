@@ -265,3 +265,7 @@ Built Packages on **[manylinux](https://github.com/loong64/manylinux)**
 </details>
 
 More packages will be added ...
+
+## Links
+
+<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=XZj-dzRYq2BTQ_SulR3VHZ0dLO1XI7ek&jump_from=webapi&authKey=+DqUmM7wBsAOTWNI6+zu0ZCyIgav4WUu4evgRJAqvakDOr9iB4paFolaE0fWDiq2"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="LoongArch64 开源交流群" title="LoongArch64 开源交流群"></a>
