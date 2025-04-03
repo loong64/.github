@@ -259,8 +259,10 @@ Built Packages on **[manylinux](https://github.com/loong64/manylinux)**
 | [manylinux_2_38_loongarch64](https://github.com/loong64/manylinux/pkgs/container/manylinux_2_38_loongarch64) | `2025.01.20-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.01.20-1` |
 | [manylinux_2_38_loongarch64](https://github.com/loong64/manylinux/pkgs/container/manylinux_2_38_loongarch64) | `2025.03.05-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.03.05-1` |
 | [manylinux_2_38_loongarch64](https://github.com/loong64/manylinux/pkgs/container/manylinux_2_38_loongarch64) | `2025.03.19-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.03.19-1` |
+| [manylinux_2_38_loongarch64](https://github.com/loong64/manylinux/pkgs/container/manylinux_2_38_loongarch64) | `2025.04.03-2` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.04.03-2` |
 | [musllinux_1_2_loongarch64](https://github.com/loong64/manylinux/pkgs/container/musllinux_1_2_loongarch64)   | `2025.03.05-1` | `docker pull ghcr.io/loong64/musllinux_1_2_loongarch64:2025.03.05-1`  |
 | [musllinux_1_2_loongarch64](https://github.com/loong64/manylinux/pkgs/container/musllinux_1_2_loongarch64)   | `2025.03.19-1` | `docker pull ghcr.io/loong64/musllinux_1_2_loongarch64:2025.03.19-1`  |
+| [musllinux_1_2_loongarch64](https://github.com/loong64/manylinux/pkgs/container/musllinux_1_2_loongarch64)   | `2025.04.03-2` | `docker pull ghcr.io/loong64/musllinux_1_2_loongarch64:2025.04.03-2`  |
 
 </details>
 
