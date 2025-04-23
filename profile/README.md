@@ -255,26 +255,9 @@ Built Packages on **[manylinux](https://github.com/loong64/manylinux)** and **[m
 | Name                                                                             | Tag            | Pull Command                                                          |
 | -------------------------------------------------------------------------------- | -------------- | --------------------------------------------------------------------- |
 | [manylinux_2_36-cross](https://ghcr.io/loong64/manylinux_2_36-cross)             | `loongarch64`  | `docker pull ghcr.io/loong64/manylinux_2_36-cross:loongarch64`        |
-| [manylinux_2_38_loongarch64](https://ghcr.io/loong64/manylinux_2_38_loongarch64) | `2024.12.31-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2024.12.31-1` |
-| [manylinux_2_38_loongarch64](https://ghcr.io/loong64/manylinux_2_38_loongarch64) | `2025.01.07-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.01.07-1` |
-| [manylinux_2_38_loongarch64](https://ghcr.io/loong64/manylinux_2_38_loongarch64) | `2025.01.16-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.01.16-1` |
-| [manylinux_2_38_loongarch64](https://ghcr.io/loong64/manylinux_2_38_loongarch64) | `2025.01.19-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.01.19-1` |
-| [manylinux_2_38_loongarch64](https://ghcr.io/loong64/manylinux_2_38_loongarch64) | `2025.01.20-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.01.20-1` |
-| [manylinux_2_38_loongarch64](https://ghcr.io/loong64/manylinux_2_38_loongarch64) | `2025.03.05-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.03.05-1` |
-| [manylinux_2_38_loongarch64](https://ghcr.io/loong64/manylinux_2_38_loongarch64) | `2025.03.19-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.03.19-1` |
-| [manylinux_2_38_loongarch64](https://ghcr.io/loong64/manylinux_2_38_loongarch64) | `2025.04.05-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.04.05-1` |
-| [manylinux_2_38_loongarch64](https://ghcr.io/loong64/manylinux_2_38_loongarch64) | `2025.04.06-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.04.06-1` |
-| [manylinux_2_38_loongarch64](https://ghcr.io/loong64/manylinux_2_38_loongarch64) | `2025.04.07-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.04.07-1` |
-| [manylinux_2_38_loongarch64](https://ghcr.io/loong64/manylinux_2_38_loongarch64) | `2025.04.11-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.04.11-1` |
-| [manylinux_2_38_loongarch64](https://ghcr.io/loong64/manylinux_2_38_loongarch64) | `2025.04.17-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.04.17-1` |
+| [manylinux_2_38_loongarch64](https://ghcr.io/loong64/manylinux_2_38_loongarch64) | `2025.04.23-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.04.23-1` |
 | [musllinux_1_2-cross](https://ghcr.io/loong64/musllinux_1_2-cross)               | `loongarch64`  | `docker pull ghcr.io/loong64/musllinux_1_2-cross:loongarch64`         |
-| [musllinux_1_2_loongarch64](https://ghcr.io/loong64/musllinux_1_2_loongarch64)   | `2025.03.05-1` | `docker pull ghcr.io/loong64/musllinux_1_2_loongarch64:2025.03.05-1`  |
-| [musllinux_1_2_loongarch64](https://ghcr.io/loong64/musllinux_1_2_loongarch64)   | `2025.03.19-1` | `docker pull ghcr.io/loong64/musllinux_1_2_loongarch64:2025.03.19-1`  |
-| [musllinux_1_2_loongarch64](https://ghcr.io/loong64/musllinux_1_2_loongarch64)   | `2025.04.05-1` | `docker pull ghcr.io/loong64/musllinux_1_2_loongarch64:2025.04.05-1`  |
-| [musllinux_1_2_loongarch64](https://ghcr.io/loong64/musllinux_1_2_loongarch64)   | `2025.04.06-1` | `docker pull ghcr.io/loong64/musllinux_1_2_loongarch64:2025.04.06-1`  |
-| [musllinux_1_2_loongarch64](https://ghcr.io/loong64/musllinux_1_2_loongarch64)   | `2025.04.07-1` | `docker pull ghcr.io/loong64/musllinux_1_2_loongarch64:2025.04.07-1`  |
-| [musllinux_1_2_loongarch64](https://ghcr.io/loong64/musllinux_1_2_loongarch64)   | `2025.04.11-1` | `docker pull ghcr.io/loong64/musllinux_1_2_loongarch64:2025.04.11-1`  |
-| [musllinux_1_2_loongarch64](https://ghcr.io/loong64/musllinux_1_2_loongarch64)   | `2025.04.17-1` | `docker pull ghcr.io/loong64/musllinux_1_2_loongarch64:2025.04.17-1`  |
+| [musllinux_1_2_loongarch64](https://ghcr.io/loong64/musllinux_1_2_loongarch64)   | `2025.04.23-1` | `docker pull ghcr.io/loong64/musllinux_1_2_loongarch64:2025.04.23-1`  |
 
 </details>
 
