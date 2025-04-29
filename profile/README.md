@@ -65,67 +65,76 @@ docker run --rm -it ghcr.io/loong64/python:3.13-slim-trixie python --version
 
 ----
 
-| Name                                                     | Tag                | Pull Command                                             |
-| -------------------------------------------------------- | ------------------ | -------------------------------------------------------- |
-| [alpine](https://ghcr.io/loong64/alpine)                 | `3.21`             | `docker pull ghcr.io/loong64/alpine:3.21`                |
-| [debian](https://ghcr.io/loong64/debian)                 | `trixie`           | `docker pull ghcr.io/loong64/debian:trixie`              |
-| [debian](https://ghcr.io/loong64/debian)                 | `trixie-slim`      | `docker pull ghcr.io/loong64/debian:trixie-slim`         |
-| [buildpack-deps](https://ghcr.io/loong64/buildpack-deps) | `trixie`           | `docker pull ghcr.io/loong64/buildpack-deps:trixie`      |
-| [buildpack-deps](https://ghcr.io/loong64/buildpack-deps) | `trixie-scm`       | `docker pull ghcr.io/loong64/buildpack-deps:trixie-scm`  |
-| [buildpack-deps](https://ghcr.io/loong64/buildpack-deps) | `trixie-curl`      | `docker pull ghcr.io/loong64/buildpack-deps:trixie-curl` |
-| [golang](https://ghcr.io/loong64/golang)                 | `1.23-alpine`      | `docker pull ghcr.io/loong64/golang:1.23-alpine`         |
-| [golang](https://ghcr.io/loong64/golang)                 | `1.23-trixie`      | `docker pull ghcr.io/loong64/golang:1.23-trixie`         |
-| [golang](https://ghcr.io/loong64/golang)                 | `1.24-alpine`      | `docker pull ghcr.io/loong64/golang:1.24-alpine`         |
-| [golang](https://ghcr.io/loong64/golang)                 | `1.24-trixie`      | `docker pull ghcr.io/loong64/golang:1.24-trixie`         |
-| [node](https://ghcr.io/loong64/node)                     | `18-alpine`        | `docker pull ghcr.io/loong64/node:18-alpine`             |
-| [node](https://ghcr.io/loong64/node)                     | `18-trixie`        | `docker pull ghcr.io/loong64/node:18-trixie`             |
-| [node](https://ghcr.io/loong64/node)                     | `18-trixie-slim`   | `docker pull ghcr.io/loong64/node:18-trixie-slim`        |
-| [node](https://ghcr.io/loong64/node)                     | `20-alpine`        | `docker pull ghcr.io/loong64/node:20-alpine`             |
-| [node](https://ghcr.io/loong64/node)                     | `20-trixie`        | `docker pull ghcr.io/loong64/node:20-trixie`             |
-| [node](https://ghcr.io/loong64/node)                     | `20-trixie-slim`   | `docker pull ghcr.io/loong64/node:20-trixie-slim`        |
-| [node](https://ghcr.io/loong64/node)                     | `22-alpine`        | `docker pull ghcr.io/loong64/node:22-alpine`             |
-| [node](https://ghcr.io/loong64/node)                     | `22-trixie`        | `docker pull ghcr.io/loong64/node:22-trixie`             |
-| [node](https://ghcr.io/loong64/node)                     | `22-trixie-slim`   | `docker pull ghcr.io/loong64/node:22-trixie-slim`        |
-| [node](https://ghcr.io/loong64/node)                     | `23-alpine`        | `docker pull ghcr.io/loong64/node:23-alpine`             |
-| [node](https://ghcr.io/loong64/node)                     | `23-trixie`        | `docker pull ghcr.io/loong64/node:23-trixie`             |
-| [node](https://ghcr.io/loong64/node)                     | `23-trixie-slim`   | `docker pull ghcr.io/loong64/node:23-trixie-slim`        |
-| [python](https://ghcr.io/loong64/python)                 | `3.9-alpine`       | `docker pull ghcr.io/loong64/python:3.9-alpine`          |
-| [python](https://ghcr.io/loong64/python)                 | `3.9-trixie`       | `docker pull ghcr.io/loong64/python:3.9-trixie`          |
-| [python](https://ghcr.io/loong64/python)                 | `3.9-slim-trixie`  | `docker pull ghcr.io/loong64/python:3.9-slim-trixie`     |
-| [python](https://ghcr.io/loong64/python)                 | `3.10-alpine`      | `docker pull ghcr.io/loong64/python:3.10-alpine`         |
-| [python](https://ghcr.io/loong64/python)                 | `3.10-trixie`      | `docker pull ghcr.io/loong64/python:3.10-trixie`         |
-| [python](https://ghcr.io/loong64/python)                 | `3.10-slim-trixie` | `docker pull ghcr.io/loong64/python:3.10-slim-trixie`    |
-| [python](https://ghcr.io/loong64/python)                 | `3.11-alpine`      | `docker pull ghcr.io/loong64/python:3.11-alpine`         |
-| [python](https://ghcr.io/loong64/python)                 | `3.11-trixie`      | `docker pull ghcr.io/loong64/python:3.11-trixie`         |
-| [python](https://ghcr.io/loong64/python)                 | `3.11-slim-trixie` | `docker pull ghcr.io/loong64/python:3.11-slim-trixie`    |
-| [python](https://ghcr.io/loong64/python)                 | `3.12-alpine`      | `docker pull ghcr.io/loong64/python:3.12-alpine`         |
-| [python](https://ghcr.io/loong64/python)                 | `3.12-trixie`      | `docker pull ghcr.io/loong64/python:3.12-trixie`         |
-| [python](https://ghcr.io/loong64/python)                 | `3.12-slim-trixie` | `docker pull ghcr.io/loong64/python:3.12-slim-trixie`    |
-| [python](https://ghcr.io/loong64/python)                 | `3.13-alpine`      | `docker pull ghcr.io/loong64/python:3.13-alpine`         |
-| [python](https://ghcr.io/loong64/python)                 | `3.13-trixie`      | `docker pull ghcr.io/loong64/python:3.13-trixie`         |
-| [python](https://ghcr.io/loong64/python)                 | `3.13-slim-trixie` | `docker pull ghcr.io/loong64/python:3.13-slim-trixie`    |
-| [redis](https://ghcr.io/loong64/redis)                   | `7.2-alpine`       | `docker pull ghcr.io/loong64/redis:7.2-alpine`           |
-| [redis](https://ghcr.io/loong64/redis)                   | `7.2-trixie`       | `docker pull ghcr.io/loong64/redis:7.2-trixie`           |
-| [redis](https://ghcr.io/loong64/redis)                   | `7.4-alpine`       | `docker pull ghcr.io/loong64/redis:7.4-alpine`           |
-| [redis](https://ghcr.io/loong64/redis)                   | `7.4-trixie`       | `docker pull ghcr.io/loong64/redis:7.4-trixie`           |
-| [postgres](https://ghcr.io/loong64/postgres)             | `13-alpine`        | `docker pull ghcr.io/loong64/postgres:13-alpine`         |
-| [postgres](https://ghcr.io/loong64/postgres)             | `13-trixie`        | `docker pull ghcr.io/loong64/postgres:13-trixie`         |
-| [postgres](https://ghcr.io/loong64/postgres)             | `14-alpine`        | `docker pull ghcr.io/loong64/postgres:14-alpine`         |
-| [postgres](https://ghcr.io/loong64/postgres)             | `14-trixie`        | `docker pull ghcr.io/loong64/postgres:14-trixie`         |
-| [postgres](https://ghcr.io/loong64/postgres)             | `15-alpine`        | `docker pull ghcr.io/loong64/postgres:15-alpine`         |
-| [postgres](https://ghcr.io/loong64/postgres)             | `15-trixie`        | `docker pull ghcr.io/loong64/postgres:15-trixie`         |
-| [postgres](https://ghcr.io/loong64/postgres)             | `16-alpine`        | `docker pull ghcr.io/loong64/postgres:16-alpine`         |
-| [postgres](https://ghcr.io/loong64/postgres)             | `16-trixie`        | `docker pull ghcr.io/loong64/postgres:16-trixie`         |
-| [postgres](https://ghcr.io/loong64/postgres)             | `17-alpine`        | `docker pull ghcr.io/loong64/postgres:17-alpine`         |
-| [postgres](https://ghcr.io/loong64/postgres)             | `17-trixie`        | `docker pull ghcr.io/loong64/postgres:17-trixie`         |
-| [mariadb](https://ghcr.io/loong64/mariadb)               | `11.4`             | `docker pull ghcr.io/loong64/mariadb:11.4`               |
-| [mariadb](https://ghcr.io/loong64/mariadb)               | `11.4-trixie`      | `docker pull ghcr.io/loong64/mariadb:11.4-trixie`        |
-| [mariadb](https://ghcr.io/loong64/mariadb)               | `11.8-rc`          | `docker pull ghcr.io/loong64/mariadb:11.8-rc`            |
-| [mariadb](https://ghcr.io/loong64/mariadb)               | `11.8-trixie-rc`   | `docker pull ghcr.io/loong64/mariadb:11.8-trixie-rc`     |
-| [nginx](https://ghcr.io/loong64/nginx)                   | `1.26-alpine`      | `docker pull ghcr.io/loong64/nginx:1.26-alpine`          |
-| [nginx](https://ghcr.io/loong64/nginx)                   | `1.26-trixie`      | `docker pull ghcr.io/loong64/nginx:1.26-trixie`          |
-| [nginx](https://ghcr.io/loong64/nginx)                   | `1.27-alpine`      | `docker pull ghcr.io/loong64/nginx:1.27-alpine`          |
-| [nginx](https://ghcr.io/loong64/nginx)                   | `1.27-trixie`      | `docker pull ghcr.io/loong64/nginx:1.27-trixie`          |
+| Name                                                     | Tag                  | Pull Command                                             |
+| -------------------------------------------------------- | -------------------- | -------------------------------------------------------- |
+| [alpine](https://ghcr.io/loong64/alpine)                 | `3.21`               | `docker pull ghcr.io/loong64/alpine:3.21`                |
+| [debian](https://ghcr.io/loong64/debian)                 | `trixie`             | `docker pull ghcr.io/loong64/debian:trixie`              |
+| [debian](https://ghcr.io/loong64/debian)                 | `trixie-slim`        | `docker pull ghcr.io/loong64/debian:trixie-slim`         |
+| [buildpack-deps](https://ghcr.io/loong64/buildpack-deps) | `trixie`             | `docker pull ghcr.io/loong64/buildpack-deps:trixie`      |
+| [buildpack-deps](https://ghcr.io/loong64/buildpack-deps) | `trixie-scm`         | `docker pull ghcr.io/loong64/buildpack-deps:trixie-scm`  |
+| [buildpack-deps](https://ghcr.io/loong64/buildpack-deps) | `trixie-curl`        | `docker pull ghcr.io/loong64/buildpack-deps:trixie-curl` |
+| [golang](https://ghcr.io/loong64/golang)                 | `1.23-alpine`        | `docker pull ghcr.io/loong64/golang:1.23-alpine`         |
+| [golang](https://ghcr.io/loong64/golang)                 | `1.23-trixie`        | `docker pull ghcr.io/loong64/golang:1.23-trixie`         |
+| [golang](https://ghcr.io/loong64/golang)                 | `1.24-alpine`        | `docker pull ghcr.io/loong64/golang:1.24-alpine`         |
+| [golang](https://ghcr.io/loong64/golang)                 | `1.24-trixie`        | `docker pull ghcr.io/loong64/golang:1.24-trixie`         |
+| [node](https://ghcr.io/loong64/node)                     | `18-alpine`          | `docker pull ghcr.io/loong64/node:18-alpine`             |
+| [node](https://ghcr.io/loong64/node)                     | `18-trixie`          | `docker pull ghcr.io/loong64/node:18-trixie`             |
+| [node](https://ghcr.io/loong64/node)                     | `18-trixie-slim`     | `docker pull ghcr.io/loong64/node:18-trixie-slim`        |
+| [node](https://ghcr.io/loong64/node)                     | `20-alpine`          | `docker pull ghcr.io/loong64/node:20-alpine`             |
+| [node](https://ghcr.io/loong64/node)                     | `20-trixie`          | `docker pull ghcr.io/loong64/node:20-trixie`             |
+| [node](https://ghcr.io/loong64/node)                     | `20-trixie-slim`     | `docker pull ghcr.io/loong64/node:20-trixie-slim`        |
+| [node](https://ghcr.io/loong64/node)                     | `22-alpine`          | `docker pull ghcr.io/loong64/node:22-alpine`             |
+| [node](https://ghcr.io/loong64/node)                     | `22-trixie`          | `docker pull ghcr.io/loong64/node:22-trixie`             |
+| [node](https://ghcr.io/loong64/node)                     | `22-trixie-slim`     | `docker pull ghcr.io/loong64/node:22-trixie-slim`        |
+| [node](https://ghcr.io/loong64/node)                     | `23-alpine`          | `docker pull ghcr.io/loong64/node:23-alpine`             |
+| [node](https://ghcr.io/loong64/node)                     | `23-trixie`          | `docker pull ghcr.io/loong64/node:23-trixie`             |
+| [node](https://ghcr.io/loong64/node)                     | `23-trixie-slim`     | `docker pull ghcr.io/loong64/node:23-trixie-slim`        |
+| [python](https://ghcr.io/loong64/python)                 | `3.9-alpine`         | `docker pull ghcr.io/loong64/python:3.9-alpine`          |
+| [python](https://ghcr.io/loong64/python)                 | `3.9-trixie`         | `docker pull ghcr.io/loong64/python:3.9-trixie`          |
+| [python](https://ghcr.io/loong64/python)                 | `3.9-slim-trixie`    | `docker pull ghcr.io/loong64/python:3.9-slim-trixie`     |
+| [python](https://ghcr.io/loong64/python)                 | `3.10-alpine`        | `docker pull ghcr.io/loong64/python:3.10-alpine`         |
+| [python](https://ghcr.io/loong64/python)                 | `3.10-trixie`        | `docker pull ghcr.io/loong64/python:3.10-trixie`         |
+| [python](https://ghcr.io/loong64/python)                 | `3.10-slim-trixie`   | `docker pull ghcr.io/loong64/python:3.10-slim-trixie`    |
+| [python](https://ghcr.io/loong64/python)                 | `3.11-alpine`        | `docker pull ghcr.io/loong64/python:3.11-alpine`         |
+| [python](https://ghcr.io/loong64/python)                 | `3.11-trixie`        | `docker pull ghcr.io/loong64/python:3.11-trixie`         |
+| [python](https://ghcr.io/loong64/python)                 | `3.11-slim-trixie`   | `docker pull ghcr.io/loong64/python:3.11-slim-trixie`    |
+| [python](https://ghcr.io/loong64/python)                 | `3.12-alpine`        | `docker pull ghcr.io/loong64/python:3.12-alpine`         |
+| [python](https://ghcr.io/loong64/python)                 | `3.12-trixie`        | `docker pull ghcr.io/loong64/python:3.12-trixie`         |
+| [python](https://ghcr.io/loong64/python)                 | `3.12-slim-trixie`   | `docker pull ghcr.io/loong64/python:3.12-slim-trixie`    |
+| [python](https://ghcr.io/loong64/python)                 | `3.13-alpine`        | `docker pull ghcr.io/loong64/python:3.13-alpine`         |
+| [python](https://ghcr.io/loong64/python)                 | `3.13-trixie`        | `docker pull ghcr.io/loong64/python:3.13-trixie`         |
+| [python](https://ghcr.io/loong64/python)                 | `3.13-slim-trixie`   | `docker pull ghcr.io/loong64/python:3.13-slim-trixie`    |
+| [redis](https://ghcr.io/loong64/redis)                   | `7.2-alpine`         | `docker pull ghcr.io/loong64/redis:7.2-alpine`           |
+| [redis](https://ghcr.io/loong64/redis)                   | `7.2-trixie`         | `docker pull ghcr.io/loong64/redis:7.2-trixie`           |
+| [redis](https://ghcr.io/loong64/redis)                   | `7.4-alpine`         | `docker pull ghcr.io/loong64/redis:7.4-alpine`           |
+| [redis](https://ghcr.io/loong64/redis)                   | `7.4-trixie`         | `docker pull ghcr.io/loong64/redis:7.4-trixie`           |
+| [php](https://ghcr.io/loong64/php)                       | `8.1-cli-alpine3.21` | `docker pull ghcr.io/loong64/php:8.1-cli-alpine3.21`     |
+| [php](https://ghcr.io/loong64/php)                       | `8.1-fpm-alpine3.21` | `docker pull ghcr.io/loong64/php:8.1-fpm-alpine3.21`     |
+| [php](https://ghcr.io/loong64/php)                       | `8.1-zts-alpine3.21` | `docker pull ghcr.io/loong64/php:8.1-zts-alpine3.21`     |
+| [php](https://ghcr.io/loong64/php)                       | `8.2-cli-alpine3.21` | `docker pull ghcr.io/loong64/php:8.2-cli-alpine3.21`     |
+| [php](https://ghcr.io/loong64/php)                       | `8.2-fpm-alpine3.21` | `docker pull ghcr.io/loong64/php:8.2-fpm-alpine3.21`     |
+| [php](https://ghcr.io/loong64/php)                       | `8.2-zts-alpine3.21` | `docker pull ghcr.io/loong64/php:8.2-zts-alpine3.21`     |
+| [php](https://ghcr.io/loong64/php)                       | `8.3-cli-alpine3.21` | `docker pull ghcr.io/loong64/php:8.3-cli-alpine3.21`     |
+| [php](https://ghcr.io/loong64/php)                       | `8.3-fpm-alpine3.21` | `docker pull ghcr.io/loong64/php:8.3-fpm-alpine3.21`     |
+| [php](https://ghcr.io/loong64/php)                       | `8.3-zts-alpine3.21` | `docker pull ghcr.io/loong64/php:8.3-zts-alpine3.21`     |
+| [postgres](https://ghcr.io/loong64/postgres)             | `13-alpine`          | `docker pull ghcr.io/loong64/postgres:13-alpine`         |
+| [postgres](https://ghcr.io/loong64/postgres)             | `13-trixie`          | `docker pull ghcr.io/loong64/postgres:13-trixie`         |
+| [postgres](https://ghcr.io/loong64/postgres)             | `14-alpine`          | `docker pull ghcr.io/loong64/postgres:14-alpine`         |
+| [postgres](https://ghcr.io/loong64/postgres)             | `14-trixie`          | `docker pull ghcr.io/loong64/postgres:14-trixie`         |
+| [postgres](https://ghcr.io/loong64/postgres)             | `15-alpine`          | `docker pull ghcr.io/loong64/postgres:15-alpine`         |
+| [postgres](https://ghcr.io/loong64/postgres)             | `15-trixie`          | `docker pull ghcr.io/loong64/postgres:15-trixie`         |
+| [postgres](https://ghcr.io/loong64/postgres)             | `16-alpine`          | `docker pull ghcr.io/loong64/postgres:16-alpine`         |
+| [postgres](https://ghcr.io/loong64/postgres)             | `16-trixie`          | `docker pull ghcr.io/loong64/postgres:16-trixie`         |
+| [postgres](https://ghcr.io/loong64/postgres)             | `17-alpine`          | `docker pull ghcr.io/loong64/postgres:17-alpine`         |
+| [postgres](https://ghcr.io/loong64/postgres)             | `17-trixie`          | `docker pull ghcr.io/loong64/postgres:17-trixie`         |
+| [mariadb](https://ghcr.io/loong64/mariadb)               | `11.4`               | `docker pull ghcr.io/loong64/mariadb:11.4`               |
+| [mariadb](https://ghcr.io/loong64/mariadb)               | `11.4-trixie`        | `docker pull ghcr.io/loong64/mariadb:11.4-trixie`        |
+| [mariadb](https://ghcr.io/loong64/mariadb)               | `11.8-rc`            | `docker pull ghcr.io/loong64/mariadb:11.8-rc`            |
+| [mariadb](https://ghcr.io/loong64/mariadb)               | `11.8-trixie-rc`     | `docker pull ghcr.io/loong64/mariadb:11.8-trixie-rc`     |
+| [nginx](https://ghcr.io/loong64/nginx)                   | `1.26-alpine`        | `docker pull ghcr.io/loong64/nginx:1.26-alpine`          |
+| [nginx](https://ghcr.io/loong64/nginx)                   | `1.26-trixie`        | `docker pull ghcr.io/loong64/nginx:1.26-trixie`          |
+| [nginx](https://ghcr.io/loong64/nginx)                   | `1.27-alpine`        | `docker pull ghcr.io/loong64/nginx:1.27-alpine`          |
+| [nginx](https://ghcr.io/loong64/nginx)                   | `1.27-trixie`        | `docker pull ghcr.io/loong64/nginx:1.27-trixie`          |
 
 </details>
 
@@ -225,6 +234,8 @@ The Python Package Index
 | numpy                | `pip install numpy -i https://mirrors.loong64.com/pypi/simple`                |
 | mysqlclient          | `pip install mysqlclient -i https://mirrors.loong64.com/pypi/simple`          |
 | torch                | `pip install torch -i https://mirrors.loong64.com/pypi/simple`                |
+| torchaudio           | `pip install torchaudio -i https://mirrors.loong64.com/pypi/simple`           |
+| torchvision          | `pip install torchvision -i https://mirrors.loong64.com/pypi/simple`          |
 | onnx                 | `pip install onnx -i https://mirrors.loong64.com/pypi/simple`                 |
 | opencv-python        | `pip install opencv-python -i https://mirrors.loong64.com/pypi/simple`        |
 | optree               | `pip install optree -i https://mirrors.loong64.com/pypi/simple`               |
@@ -249,6 +260,7 @@ The Python Package Index
 | xmlsec               | `pip install xmlsec -i https://mirrors.loong64.com/pypi/simple`               |
 | uv                   | `pip install uv -i https://mirrors.loong64.com/pypi/simple`                   |
 | zope.interface       | `pip install zope.interface -i https://mirrors.loong64.com/pypi/simple`       |
+| zstandard            | `pip install zstandard -i https://mirrors.loong64.com/pypi/simple`            |
 
 Built Packages on **[manylinux](https://github.com/loong64/manylinux)** and **[manylinux-cross](https://github.com/loong64/manylinux-cross)**
 
