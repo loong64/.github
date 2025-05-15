@@ -135,6 +135,10 @@ docker run --rm -it ghcr.io/loong64/python:3.13-slim-trixie python --version
 | [nginx](https://ghcr.io/loong64/nginx)                   | `1.26-trixie`        | `docker pull ghcr.io/loong64/nginx:1.26-trixie`          |
 | [nginx](https://ghcr.io/loong64/nginx)                   | `1.27-alpine`        | `docker pull ghcr.io/loong64/nginx:1.27-alpine`          |
 | [nginx](https://ghcr.io/loong64/nginx)                   | `1.27-trixie`        | `docker pull ghcr.io/loong64/nginx:1.27-trixie`          |
+| [nextcloud](https://ghcr.io/loong64/nextcloud)           | `29-fpm-alpine`      | `docker pull ghcr.io/loong64/nextcloud:29-fpm-alpine`    |
+| [nextcloud](https://ghcr.io/loong64/nextcloud)           | `30-fpm-alpine`      | `docker pull ghcr.io/loong64/nextcloud:30-fpm-alpine`    |
+| [nextcloud](https://ghcr.io/loong64/nextcloud)           | `31-fpm-alpine`      | `docker pull ghcr.io/loong64/nextcloud:31-fpm-alpine`    |
+| [n8n](https://ghcr.io/loong64/n8n)                       | `1.91.3`             | `docker pull ghcr.io/loong64/n8n:1.91.3`                 |
 
 </details>
 
