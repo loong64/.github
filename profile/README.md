@@ -89,6 +89,9 @@ docker run --rm -it ghcr.io/loong64/python:3.13-slim-trixie python --version
 | [node](https://ghcr.io/loong64/node)                     | `23-alpine`          | `docker pull ghcr.io/loong64/node:23-alpine`             |
 | [node](https://ghcr.io/loong64/node)                     | `23-trixie`          | `docker pull ghcr.io/loong64/node:23-trixie`             |
 | [node](https://ghcr.io/loong64/node)                     | `23-trixie-slim`     | `docker pull ghcr.io/loong64/node:23-trixie-slim`        |
+| [node](https://ghcr.io/loong64/node)                     | `24-alpine`          | `docker pull ghcr.io/loong64/node:24-alpine`             |
+| [node](https://ghcr.io/loong64/node)                     | `24-trixie`          | `docker pull ghcr.io/loong64/node:24-trixie`             |
+| [node](https://ghcr.io/loong64/node)                     | `24-trixie-slim`     | `docker pull ghcr.io/loong64/node:24-trixie-slim`        |
 | [python](https://ghcr.io/loong64/python)                 | `3.9-alpine`         | `docker pull ghcr.io/loong64/python:3.9-alpine`          |
 | [python](https://ghcr.io/loong64/python)                 | `3.9-trixie`         | `docker pull ghcr.io/loong64/python:3.9-trixie`          |
 | [python](https://ghcr.io/loong64/python)                 | `3.9-slim-trixie`    | `docker pull ghcr.io/loong64/python:3.9-slim-trixie`     |
@@ -139,6 +142,7 @@ docker run --rm -it ghcr.io/loong64/python:3.13-slim-trixie python --version
 | [nextcloud](https://ghcr.io/loong64/nextcloud)           | `30-fpm-alpine`      | `docker pull ghcr.io/loong64/nextcloud:30-fpm-alpine`    |
 | [nextcloud](https://ghcr.io/loong64/nextcloud)           | `31-fpm-alpine`      | `docker pull ghcr.io/loong64/nextcloud:31-fpm-alpine`    |
 | [n8n](https://ghcr.io/loong64/n8n)                       | `1.91.3`             | `docker pull ghcr.io/loong64/n8n:1.91.3`                 |
+| [n8n](https://ghcr.io/loong64/n8n)                       | `1.93.0`             | `docker pull ghcr.io/loong64/n8n:1.93.0`                 |
 
 </details>
 
