@@ -242,6 +242,7 @@ The Python Package Index
 | nh3                  | `pip install nh3 -i https://mirrors.loong64.com/pypi/simple`                  |
 | ninja                | `pip install ninja -i https://mirrors.loong64.com/pypi/simple`                |
 | numpy                | `pip install numpy -i https://mirrors.loong64.com/pypi/simple`                |
+| ml-dtypes            | `pip install ml-dtypes -i https://mirrors.loong64.com/pypi/simple`            |
 | mysqlclient          | `pip install mysqlclient -i https://mirrors.loong64.com/pypi/simple`          |
 | torch                | `pip install torch -i https://mirrors.loong64.com/pypi/simple`                |
 | torchaudio           | `pip install torchaudio -i https://mirrors.loong64.com/pypi/simple`           |
@@ -250,6 +251,7 @@ The Python Package Index
 | opencv-python        | `pip install opencv-python -i https://mirrors.loong64.com/pypi/simple`        |
 | optree               | `pip install optree -i https://mirrors.loong64.com/pypi/simple`               |
 | oracledb             | `pip install oracledb -i https://mirrors.loong64.com/pypi/simple`             |
+| orjson               | `pip install orjson -i https://mirrors.loong64.com/pypi/simple`               |
 | pandas               | `pip install pandas -i https://mirrors.loong64.com/pypi/simple`               |
 | patchelf             | `pip install patchelf  -i https://mirrors.loong64.com/pypi/simple`            |
 | pillow               | `pip install pillow -i https://mirrors.loong64.com/pypi/simple`               |
@@ -262,6 +264,7 @@ The Python Package Index
 | PyNaCl               | `pip install PyNaCl -i https://mirrors.loong64.com/pypi/simple`               |
 | PyYAML               | `pip install PyYAML -i https://mirrors.loong64.com/pypi/simple`               |
 | pyzmq                | `pip install pyzmq -i https://mirrors.loong64.com/pypi/simple`                |
+| watchfiles           | `pip install watchfiles -i https://mirrors.loong64.com/pypi/simple`           |
 | scipy-openblas32     | `pip install scipy-openblas32 -i https://mirrors.loong64.com/pypi/simple`     |
 | scipy-openblas64     | `pip install scipy-openblas64 -i https://mirrors.loong64.com/pypi/simple`     |
 | sentencepiece        | `pip install sentencepiece -i https://mirrors.loong64.com/pypi/simple`        |
@@ -277,9 +280,9 @@ Built Packages on **[manylinux](https://github.com/loong64/manylinux)** and **[m
 | Name                                                                             | Tag            | Pull Command                                                          |
 | -------------------------------------------------------------------------------- | -------------- | --------------------------------------------------------------------- |
 | [manylinux_2_36-cross](https://ghcr.io/loong64/manylinux_2_36-cross)             | `loongarch64`  | `docker pull ghcr.io/loong64/manylinux_2_36-cross:loongarch64`        |
-| [manylinux_2_38_loongarch64](https://ghcr.io/loong64/manylinux_2_38_loongarch64) | `2025.04.23-1` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.04.23-1` |
+| [manylinux_2_38_loongarch64](https://ghcr.io/loong64/manylinux_2_38_loongarch64) | `2025.05.18-0` | `docker pull ghcr.io/loong64/manylinux_2_38_loongarch64:2025.05.18-0` |
 | [musllinux_1_2-cross](https://ghcr.io/loong64/musllinux_1_2-cross)               | `loongarch64`  | `docker pull ghcr.io/loong64/musllinux_1_2-cross:loongarch64`         |
-| [musllinux_1_2_loongarch64](https://ghcr.io/loong64/musllinux_1_2_loongarch64)   | `2025.04.23-1` | `docker pull ghcr.io/loong64/musllinux_1_2_loongarch64:2025.04.23-1`  |
+| [musllinux_1_2_loongarch64](https://ghcr.io/loong64/musllinux_1_2_loongarch64)   | `2025.05.18-0` | `docker pull ghcr.io/loong64/musllinux_1_2_loongarch64:2025.05.18-0`  |
 
 </details>
 
