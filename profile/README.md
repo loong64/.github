@@ -249,6 +249,7 @@ The Python Package Index
 | torchaudio           | `pip install torchaudio -i https://mirrors.loong64.com/pypi/simple`           |
 | torchvision          | `pip install torchvision -i https://mirrors.loong64.com/pypi/simple`          |
 | onnx                 | `pip install onnx -i https://mirrors.loong64.com/pypi/simple`                 |
+| onnxruntime          | `pip install onnxruntime -i https://mirrors.loong64.com/pypi/simple`          |
 | opencv-python        | `pip install opencv-python -i https://mirrors.loong64.com/pypi/simple`        |
 | optree               | `pip install optree -i https://mirrors.loong64.com/pypi/simple`               |
 | oracledb             | `pip install oracledb -i https://mirrors.loong64.com/pypi/simple`             |
