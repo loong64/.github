@@ -15,7 +15,7 @@ You can use **[Docker](https://docs.docker.com/get-started/get-docker/)** to qui
 docker run --privileged --rm tonistiigi/binfmt --install all
 
 # Alpine
-docker run --rm --platform linux/loong64 -it ghcr.io/loong64/alpine:3.21 sh
+docker run --rm --platform linux/loong64 -it ghcr.io/loong64/alpine:3.22 sh
 
 # Debian
 docker run --rm --platform linux/loong64 -it ghcr.io/loong64/debian:trixie-slim bash
@@ -28,7 +28,7 @@ Or use Linux OS to boot.
 
 | Name                                                                                                                                              | Description                                                          |
 | ------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| [alpine-standard-3.21.3-loongarch64.iso](https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/loongarch64/alpine-standard-3.21.3-loongarch64.iso) | Alpine as it was intended. Just enough to get you started.           |
+| [alpine-standard-3.22.0-loongarch64.iso](https://dl-cdn.alpinelinux.org/alpine/v3.22/releases/loongarch64/alpine-standard-3.22.0-loongarch64.iso) | Alpine as it was intended. Just enough to get you started.           |
 | [debian-12.0.0-loong64-NETINST-1.iso](https://cdimage.debian.org/cdimage/ports/snapshots/2025-04-01/debian-12.0.0-loong64-NETINST-1.iso)          | contains installer images for the non-release "ports" architectures. |
 
 ## Applications
@@ -70,6 +70,7 @@ docker run --rm -it ghcr.io/loong64/python:3.13-slim-trixie python --version
 | Name                                                     | Tag                  | Pull Command                                             |
 | -------------------------------------------------------- | -------------------- | -------------------------------------------------------- |
 | [alpine](https://ghcr.io/loong64/alpine)                 | `3.21`               | `docker pull ghcr.io/loong64/alpine:3.21`                |
+| [alpine](https://ghcr.io/loong64/alpine)                 | `3.22`               | `docker pull ghcr.io/loong64/alpine:3.22`                |
 | [debian](https://ghcr.io/loong64/debian)                 | `trixie`             | `docker pull ghcr.io/loong64/debian:trixie`              |
 | [debian](https://ghcr.io/loong64/debian)                 | `trixie-slim`        | `docker pull ghcr.io/loong64/debian:trixie-slim`         |
 | [buildpack-deps](https://ghcr.io/loong64/buildpack-deps) | `trixie`             | `docker pull ghcr.io/loong64/buildpack-deps:trixie`      |
