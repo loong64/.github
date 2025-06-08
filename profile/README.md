@@ -148,6 +148,11 @@ docker run --rm -it ghcr.io/loong64/python:3.13-slim-trixie python --version
 | [n8n](https://ghcr.io/loong64/n8n)                       | `1.91.3`             | `docker pull ghcr.io/loong64/n8n:1.91.3`                 |
 | [n8n](https://ghcr.io/loong64/n8n)                       | `1.93.0`             | `docker pull ghcr.io/loong64/n8n:1.93.0`                 |
 | [cloudreve](https://ghcr.io/loong64/cloudreve)           | `3.8.3`              | `docker pull ghcr.io/loong64/cloudreve:3.8.3`            |
+| [pgvector](https://ghcr.io/loong64/pgvector)             | `pg13`               | `docker pull ghcr.io/loong64/pgvector:pg13`              |
+| [pgvector](https://ghcr.io/loong64/pgvector)             | `pg14`               | `docker pull ghcr.io/loong64/pgvector:pg14`              |
+| [pgvector](https://ghcr.io/loong64/pgvector)             | `pg15`               | `docker pull ghcr.io/loong64/pgvector:pg15`              |
+| [pgvector](https://ghcr.io/loong64/pgvector)             | `pg16`               | `docker pull ghcr.io/loong64/pgvector:pg16`              |
+| [pgvector](https://ghcr.io/loong64/pgvector)             | `pg17`               | `docker pull ghcr.io/loong64/pgvector:pg17`              |
 
 </details>
 
