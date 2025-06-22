@@ -244,9 +244,9 @@ The Python Package Index
 | -------------------- | ----------------------------------------------------------------------------- |
 | aiohttp              | `pip install aiohttp -i https://mirrors.loong64.com/pypi/simple`              |
 | argon2-cffi-bindings | `pip install argon2-cffi-bindings -i https://mirrors.loong64.com/pypi/simple` |
-| auditwheel           | `pip install auditwheel -i https://mirrors.loong64.com/pypi/simple`           |
 | bcrypt               | `pip install bcrypt -i https://mirrors.loong64.com/pypi/simple`               |
 | cffi                 | `pip install cffi -i https://mirrors.loong64.com/pypi/simple`                 |
+| cibuildwheel         | `pip install cibuildwheel -i https://mirrors.loong64.com/pypi/simple`         |
 | cmake                | `pip install cmake -i https://mirrors.loong64.com/pypi/simple`                |
 | contourpy            | `pip install contourpy -i https://mirrors.loong64.com/pypi/simple`            |
 | cryptography         | `pip install cryptography -i https://mirrors.loong64.com/pypi/simple`         |
