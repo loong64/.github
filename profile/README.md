@@ -28,7 +28,7 @@ Or use Linux OS to boot.
 
 | Name                                                                                                                                              | Description                                                          |
 | ------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| [alpine-standard-3.22.0-loongarch64.iso](https://dl-cdn.alpinelinux.org/alpine/v3.22/releases/loongarch64/alpine-standard-3.22.0-loongarch64.iso) | Alpine as it was intended. Just enough to get you started.           |
+| [alpine-standard-3.22.1-loongarch64.iso](https://dl-cdn.alpinelinux.org/alpine/v3.22/releases/loongarch64/alpine-standard-3.22.1-loongarch64.iso) | Alpine as it was intended. Just enough to get you started.           |
 | [debian-12.0.0-loong64-NETINST-1.iso](https://cdimage.debian.org/cdimage/ports/snapshots/2025-04-01/debian-12.0.0-loong64-NETINST-1.iso)          | contains installer images for the non-release "ports" architectures. |
 
 ## Applications
@@ -70,7 +70,7 @@ GitHub Container Registry. Images are built on **[docker-library](https://github
 
 ```sh
 docker run --rm -it ghcr.io/loong64/golang:1.24-trixie go version
-docker run --rm -it ghcr.io/loong64/node:23-trixie-slim node --version
+docker run --rm -it ghcr.io/loong64/node:24-trixie-slim node --version
 docker run --rm -it ghcr.io/loong64/python:3.13-slim-trixie python --version
 ```
 
