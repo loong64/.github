@@ -128,7 +128,7 @@ Python Package Index. **[pypi](https://github.com/loong64/pypi)**
 
 ```sh
 # pip install "SomeProject" --extra-index-url https://mirrors.loong64.com/pypi/simple
-pip install poetry --extra-index-url https://mirrors.loong64.com/pypi/simple
+pip install uv --extra-index-url https://mirrors.loong64.com/pypi/simple
 ```
 
 More packages will be added ...
