@@ -28,7 +28,7 @@ Or use Linux OS to boot.
 
 | Name                                                                                                                                              | Description                                                          |
 | ------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| [alpine-standard-3.22.2-loongarch64.iso](https://dl-cdn.alpinelinux.org/alpine/v3.22/releases/loongarch64/alpine-standard-3.22.2-loongarch64.iso) | Alpine as it was intended. Just enough to get you started.           |
+| [alpine-standard-3.23.0-loongarch64.iso](https://dl-cdn.alpinelinux.org/alpine/v3.23/releases/loongarch64/alpine-standard-3.23.0-loongarch64.iso) | Alpine as it was intended. Just enough to get you started.           |
 | [debian-13.0.0-loong64-NETINST-1.iso](https://cdimage.debian.org/cdimage/ports/snapshots/2025-12-06/debian-13.0.0-loong64-NETINST-1.iso)          | contains installer images for the non-release "ports" architectures. |
 
 ## Applications
