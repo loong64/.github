@@ -24,12 +24,12 @@ docker run --rm --platform linux/loong64 -it ghcr.io/loong64/debian:trixie-slim 
 Or use Linux OS to boot.
 
 - **[Alpine Linux](https://www.alpinelinux.org/downloads/)** 
-- **[Debian GNU/Linux](https://cdimage.debian.org/cdimage/ports/snapshots/2025-12-06/)** 
+- **[Debian GNU/Linux](https://cdimage.debian.org/cdimage/ports/tests/loong64-test-20260203/)** 
 
 | Name                                                                                                                                              | Description                                                          |
 | ------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | [alpine-standard-3.23.0-loongarch64.iso](https://dl-cdn.alpinelinux.org/alpine/v3.23/releases/loongarch64/alpine-standard-3.23.0-loongarch64.iso) | Alpine as it was intended. Just enough to get you started.           |
-| [debian-13.0.0-loong64-NETINST-1.iso](https://cdimage.debian.org/cdimage/ports/snapshots/2025-12-06/debian-13.0.0-loong64-NETINST-1.iso)          | contains installer images for the non-release "ports" architectures. |
+| [debian-sid-loong64-mini.iso](https://cdimage.debian.org/cdimage/ports/tests/loong64-test-20260203/mini.iso)          | contains installer images for the non-release "ports" architectures. |
 
 ## Applications
 
