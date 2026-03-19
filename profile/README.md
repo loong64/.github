@@ -88,15 +88,15 @@ Install Debian Packages **[repo](https://github.com/loong64/repo)**
 sudo apt-get update
 sudo apt-get install ca-certificates curl
 
-sudo curl -fsSL "https://mirrors.loong64.com/debian/debian-loong64-archive-keyring.gpg" -o /usr/share/keyrings/debian-loong64-archive-keyring.gpg
+sudo curl -fsSL "https://loong64.github.io/repo/debian/debian-loong64-archive-keyring.gpg" -o /usr/share/keyrings/debian-loong64-archive-keyring.gpg
 sudo chmod a+r /usr/share/keyrings/debian-loong64-archive-keyring.gpg
 
-# Add the repository to Apt sources:
+# Add repository:
 echo \
-  "deb [arch=loong64 signed-by=/usr/share/keyrings/debian-loong64-archive-keyring.gpg] https://mirrors.loong64.com/debian trixie main" | \
+  "deb [arch=loong64 signed-by=/usr/share/keyrings/debian-loong64-archive-keyring.gpg] https://loong64.github.io/repo/debian trixie main" | \
   sudo tee /etc/apt/sources.list.d/debian-loong64-repo.list > /dev/null
 
-# Install the Docker packages.
+# Install packages:
 sudo apt update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
@@ -108,7 +108,6 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 ----
 Package List
 
-- https://mirrors.loong64.com/debian
 - https://loong64.github.io/repo/debian
 
 | Package Name              | Install Command                                     | Description                                    |
