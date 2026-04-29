@@ -24,12 +24,12 @@ docker run --rm --platform linux/loong64 -it ghcr.io/loong64/debian:trixie-slim 
 Or use Linux OS to boot.
 
 - **[Alpine Linux](https://www.alpinelinux.org/downloads/)** 
-- **[Debian GNU/Linux](https://cdimage.debian.org/cdimage/ports/tests/loong64-test-20260203/)** 
+- **[Debian GNU/Linux](https://cdimage.debian.org/cdimage/daily-builds/daily/current/loong64/iso-cd/)** 
 
-| Name                                                                                                                                              | Description                                                          |
-| ------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| [alpine-standard-3.23.4-loongarch64.iso](https://dl-cdn.alpinelinux.org/alpine/v3.23/releases/loongarch64/alpine-standard-3.23.4-loongarch64.iso) | Alpine as it was intended. Just enough to get you started.           |
-| [debian-sid-loong64-mini.iso](https://cdimage.debian.org/cdimage/ports/tests/loong64-test-20260203/mini.iso)          | contains installer images for the non-release "ports" architectures. |
+| Name                                                                                                                                                  | Description                                                          |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| [alpine-standard-3.23.4-loongarch64.iso](https://dl-cdn.alpinelinux.org/alpine/v3.23/releases/loongarch64/alpine-standard-3.23.4-loongarch64.iso)     | Alpine as it was intended. Just enough to get you started.           |
+| [debian-testing-loong64-netinst.iso](https://cdimage.debian.org/cdimage/daily-builds/daily/current/loong64/iso-cd/debian-testing-loong64-netinst.iso) | contains installer images for the non-release "ports" architectures. |
 
 ## Applications
 
