@@ -15,7 +15,7 @@ You can use **[Docker](https://docs.docker.com/get-started/get-docker/)** to qui
 docker run --privileged --rm tonistiigi/binfmt --install all
 
 # Alpine
-docker run --rm --platform linux/loong64 -it ghcr.io/loong64/alpine:3.23 sh
+docker run --rm --platform linux/loong64 -it ghcr.io/loong64/alpine:3.24 sh
 
 # Debian
 docker run --rm --platform linux/loong64 -it ghcr.io/loong64/debian:trixie-slim bash
@@ -28,7 +28,7 @@ Or use Linux OS to boot.
 
 | Name                                                                                                                                                  | Description                                                          |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| [alpine-standard-3.23.4-loongarch64.iso](https://dl-cdn.alpinelinux.org/alpine/v3.23/releases/loongarch64/alpine-standard-3.23.4-loongarch64.iso)     | Alpine as it was intended. Just enough to get you started.           |
+| [alpine-standard-3.24.1-loongarch64.iso](https://dl-cdn.alpinelinux.org/alpine/v3.24/releases/loongarch64/alpine-standard-3.24.1-loongarch64.iso)     | Alpine as it was intended. Just enough to get you started.           |
 | [debian-testing-loong64-netinst.iso](https://cdimage.debian.org/cdimage/daily-builds/daily/current/loong64/iso-cd/debian-testing-loong64-netinst.iso) | contains installer images for the non-release "ports" architectures. |
 
 ## Applications
