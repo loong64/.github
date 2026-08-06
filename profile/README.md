@@ -95,16 +95,16 @@ docker run --rm -it ghcr.io/loong64/python:3.14-slim-trixie python --version
 
 "Distroless" Container Images. Images are built on **[distroless](https://github.com/loong64/distroless)**.
 
-| Image                                          | Tags                                  | Architecture Suffixes                               |
-| ---------------------------------------------- | ------------------------------------- | --------------------------------------------------- |
-| ghcr.io/loong64/distroless/static-debian13     | latest, nonroot, debug, debug-nonroot | amd64, arm64, arm, s390x, ppc64le, riscv64, loong64 |
-| ghcr.io/loong64/distroless/base-debian13       | latest, nonroot, debug, debug-nonroot | amd64, arm64, arm, s390x, ppc64le, riscv64, loong64 |
-| ghcr.io/loong64/distroless/base-nossl-debian13 | latest, nonroot, debug, debug-nonroot | amd64, arm64, arm, s390x, ppc64le, riscv64, loong64 |
-| ghcr.io/loong64/distroless/cc-debian13         | latest, nonroot, debug, debug-nonroot | amd64, arm64, arm, s390x, ppc64le, riscv64, loong64 |
-| ghcr.io/loong64/distroless/nodejs22-debian13   | latest, nonroot, debug, debug-nonroot | amd64, arm64, arm, s390x, ppc64le, loong64          |
-| ghcr.io/loong64/distroless/nodejs24-debian13   | latest, nonroot, debug, debug-nonroot | amd64, arm64, s390x, ppc64le, loong64               |
-| ghcr.io/loong64/distroless/nodejs26-debian13   | latest, nonroot, debug, debug-nonroot | amd64, arm64, s390x, ppc64le, loong64               |
-| ghcr.io/loong64/distroless/python3-debian13    | latest, nonroot, debug, debug-nonroot | amd64, arm64, riscv64, loong64, loong64             |
+| Image                                                                                            | Tags                                          | Architecture Suffixes                               |
+| ------------------------------------------------------------------------------------------------ | --------------------------------------------- | --------------------------------------------------- |
+| [ghcr.io/loong64/distroless/static-debian13](ghcr.io/loong64/distroless/static-debian13)         | `latest`, `nonroot`, `debug`, `debug-nonroot` | amd64, arm64, arm, s390x, ppc64le, riscv64, loong64 |
+| [ghcr.io/loong64/distroless/base-debian13](ghcr.io/loong64/distroless/base-debian13)             | `latest`, `nonroot`, `debug`, `debug-nonroot` | amd64, arm64, arm, s390x, ppc64le, riscv64, loong64 |
+| [ghcr.io/loong64/distroless/base-nossl-debian13](ghcr.io/loong64/distroless/base-nossl-debian13) | `latest`, `nonroot`, `debug`, `debug-nonroot` | amd64, arm64, arm, s390x, ppc64le, riscv64, loong64 |
+| [ghcr.io/loong64/distroless/cc-debian13](ghcr.io/loong64/distroless/cc-debian13)                 | `latest`, `nonroot`, `debug`, `debug-nonroot` | amd64, arm64, arm, s390x, ppc64le, riscv64, loong64 |
+| [ghcr.io/loong64/distroless/nodejs22-debian13](ghcr.io/loong64/distroless/nodejs22-debian13)     | `latest`, `nonroot`, `debug`, `debug-nonroot` | amd64, arm64, arm, s390x, ppc64le, loong64          |
+| [ghcr.io/loong64/distroless/nodejs24-debian13](ghcr.io/loong64/distroless/nodejs24-debian13)     | `latest`, `nonroot`, `debug`, `debug-nonroot` | amd64, arm64, s390x, ppc64le, loong64               |
+| [ghcr.io/loong64/distroless/nodejs26-debian13](ghcr.io/loong64/distroless/nodejs26-debian13)     | `latest`, `nonroot`, `debug`, `debug-nonroot` | amd64, arm64, s390x, ppc64le, loong64               |
+| [ghcr.io/loong64/distroless/python3-debian13](ghcr.io/loong64/distroless/python3-debian13)       | `latest`, `nonroot`, `debug`, `debug-nonroot` | amd64, arm64, riscv64, loong64, loong64             |
 
 More Docker images will be added ...
 
