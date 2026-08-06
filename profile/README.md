@@ -29,9 +29,6 @@ docker run --rm --platform linux/loong64 -it ghcr.io/loong64/debian:trixie-slim 
 
 ### Debian Packages
 
-- Debian Trixie / Forky
-- linux/loong64
-
 Install Debian packages from the **[repository](https://github.com/loong64/repo)**.
 
 ```sh
@@ -74,7 +71,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 More packages will be added ...
 
-## Docker Tools
+## Docker
 
 | Name                                                                           | Release                                                                                                                                                              | Description                                                                                               |
 | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
@@ -206,5 +203,3 @@ More packages will be added ...
 ## Links
 
 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=XZj-dzRYq2BTQ_SulR3VHZ0dLO1XI7ek&jump_from=webapi&authKey=+DqUmM7wBsAOTWNI6+zu0ZCyIgav4WUu4evgRJAqvakDOr9iB4paFolaE0fWDiq2"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="LoongArch64 开源交流群" title="LoongArch64 开源交流群"></a>
-
-<a target="_blank" href="https://github.com/orgs/loong64/discussions"><g-emoji alias="speech_balloon" fallback-src="https://github.githubassets.com/assets/1f4ac-38a5e6d53606.png" class="d-flex flex-items-center f4 discussions-emoji-box">💬</g-emoji>Discussions</a>
