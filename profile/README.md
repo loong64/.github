@@ -125,7 +125,7 @@ More Docker images will be added ...
 | Name                                                                           | Release                                                                                                                                                              | Description                                                                                               |
 | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
 | [uv](https://github.com/loong64/uv)                                            | <a href="https://github.com/loong64/uv"><img alt="uv" src="https://img.shields.io/github/release/loong64/uv.svg"/></a>                                               | An extremely fast Python package and project manager written in Rust.                                     |
-| [Python Standalone Builds](https://github.com/loong64/python-build-standalone) | <a href="https://github.com/loong64/python-build-standalone"><img alt="Python" src="https://img.shields.io/github/release/loong64/python-build-standalone.svg"/></a> | Produce redistributable Python builds.                                                                    |
+| [python-build-standalone](https://github.com/loong64/python-build-standalone) | <a href="https://github.com/loong64/python-build-standalone"><img alt="Python" src="https://img.shields.io/github/release/loong64/python-build-standalone.svg"/></a> | Produce redistributable Python builds.                                                                    |
 
 ```sh
 wget -O - https://github.com/loong64/uv/releases/latest/download/uv-loongarch64-unknown-linux-gnu.tar.gz | tar xz --strip-components=1 -C /usr/local/bin
@@ -144,13 +144,13 @@ uv pip install django
 
 #### PyPI Repository
 
-Python Package Index. **[PyPI](https://github.com/loong64/pypi)**
-
 | Name                                                                           | Release                                                                                                                                                              | Description                                                                                               |
 | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
 | [PyTorch](https://github.com/loong64/pytorch)                                  | <a href="https://github.com/loong64/pytorch"><img alt="PyTorch" src="https://img.shields.io/github/release/loong64/pytorch.svg"/></a>                                | Tensors and Dynamic neural networks in Python with strong GPU acceleration.                               |
 | [TensorFlow](https://github.com/loong64/tensorflow)                            | <a href="https://github.com/loong64/pytorch"><img alt="TensorFlow" src="https://img.shields.io/github/release/loong64/tensorflow.svg"/></a>                          | An Open Source Machine Learning Framework for Everyone.                                                   |
 | [ONNX Runtime](https://github.com/loong64/maturin)                             | <a href="https://github.com/loong64/onnxruntime"><img alt="ONNX Runtime" src="https://img.shields.io/github/release/loong64/onnxruntime.svg"/></a>                   | ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator.                   |
+
+Python Package Index. **[PyPI](https://github.com/loong64/pypi)**
 
 ```sh
 export PIP_EXTRA_INDEX_URL=https://mirrors.loong64.com/pypi/simple
