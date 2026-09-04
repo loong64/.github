@@ -127,14 +127,14 @@ More Docker images will be added ...
 | [dart](https://github.com/dart-loong64/dart)                                   | <a href="https://github.com/dart-loong64/dart"><img alt="Vite+" src="https://img.shields.io/github/release/dart-loong64/dart.svg"/></a>                              | The Dart SDK.                                                                                             |
 | [dart-musl](https://github.com/dart-loong64/dart-musl)                         | <a href="https://github.com/dart-loong64/dart-musl"><img alt="Vite+" src="https://img.shields.io/github/release/dart-loong64/dart-musl.svg"/></a>                    | The Dart SDK (musl).                                                                                      |
 | [dart-sass](https://github.com/loong64/dart-sass)                              | <a href="https://github.com/loong64/dart-sass"><img alt="dart-sass" src="https://img.shields.io/github/release/loong64/dart-sass.svg"/></a>                          | The reference implementation of Sass, written in Dart.                                                    |
-
+| [Flutter](https://github.com/dart-loong64/flutter)                             | <a href="https://github.com/dart-loong64/flutter"><img alt="flutter" src="https://img.shields.io/github/release/dart-loong64/flutter.svg"/></a>                      | Flutter makes it easy and fast to build beautiful apps for mobile and beyond.                             |
 
 ## Python
 
 | Name                                                                           | Release                                                                                                                                                              | Description                                                                                               |
 | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
 | [uv](https://github.com/loong64/uv)                                            | <a href="https://github.com/loong64/uv"><img alt="uv" src="https://img.shields.io/github/release/loong64/uv.svg"/></a>                                               | An extremely fast Python package and project manager written in Rust.                                     |
-| [python-build-standalone](https://github.com/loong64/python-build-standalone) | <a href="https://github.com/loong64/python-build-standalone"><img alt="Python" src="https://img.shields.io/github/release/loong64/python-build-standalone.svg"/></a> | Produce redistributable Python builds.                                                                    |
+| [python-build-standalone](https://github.com/loong64/python-build-standalone)  | <a href="https://github.com/loong64/python-build-standalone"><img alt="Python" src="https://img.shields.io/github/release/loong64/python-build-standalone.svg"/></a> | Produce redistributable Python builds.                                                                    |
 
 ```sh
 wget -O - https://github.com/loong64/uv/releases/latest/download/uv-loongarch64-unknown-linux-gnu.tar.gz | tar xz --strip-components=1 -C /usr/local/bin
@@ -200,6 +200,7 @@ More packages will be added ...
 | [AppImageTool](https://github.com/loong64/appimagetool)                        | <a href="https://github.com/loong64/appimagetool"><img alt="appimagetool" src="https://img.shields.io/github/release/loong64/appimagetool.svg"/></a>                 | A low-level tool for generating an AppImage from an existing AppDir.                                      |
 | [Nydus](https://github.com/loong64/nydus)                                      | <a href="https://github.com/loong64/nydus"><img alt="Nydus" src="https://img.shields.io/github/release/loong64/nydus.svg"/></a>                                      | Dragonfly image service.                                                                                  |
 | [DuckDB](https://github.com/loong64/duckdb)                                    | <a href="https://github.com/loong64/duckdb"><img alt="DuckDB" src="https://img.shields.io/github/release/loong64/duckdb.svg"/></a>                                   | DuckDB is an analytical in-process SQL database management system.                                        |
+| [Immich](https://github.com/loong64/immich)                                    | <a href="https://github.com/loong64/immich"><img alt="Immich" src="https://img.shields.io/github/release/loong64/immich.svg"/></a>                                   | High performance self-hosted photo and video management solution.                                         |
 
 ## Links
 
